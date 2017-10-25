@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+		<title>Bike frame size finder</title>
+	</head>
+	<body>
+		<h1>Bicycle frame size finder</h1>
+		<p>Enter your height in centimeters(cm) in the box below to determine the type of frame size that is suitable for you.*</p>
+		
+		<select id="gender">
+			<option value="Male" id="Male">Male</option>
+			<option value="Female" id="Female">Female</option>
+		</select>
+		
+		<br>
+		<br>
+		
+		<select id="type">
+			<option value="Road" id="Road">Road</option>
+			<option value="Mountain" id="Mountain">Mountain</option>
+		</select>
+		
+		<br>
+		<br>
+		
+		<input type="number" id="cm">
+		<button type="button" onclick="frame()" id="frame">Calculate</button>
+		<p id="size"></p>
+		
+		<footer>
+			<p>*Results shown are not 100% accurate as there are other factors that will affect the selection of the frame size.</p>
+			<p>The results obtained are based on common practices applied by bicycle mechanics around the world.</p>
+		</footer>
+		
+	</body>
+</html>

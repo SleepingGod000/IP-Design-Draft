@@ -1,0 +1,39 @@
+.shoplogo {
+	height: 100px;
+	width:100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+.receiptBorder {
+	display: block;
+	border: none;
+	height: 3px;
+	background-color: #000;
+}
+
+.receiptHeading > div > h5 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.invoiceTotal  h5 {
+	font-weight: 700;
+}
+
+.itemDetail p {
+	margin-bottom: 0;
+}
+
+@media print {
+	body{
+		visibility: hidden!important;
+	}
+	footer, nav{
+		display: none!important;
+	}
+	.receipt {
+		visibility: visible!important;
+	}
+}

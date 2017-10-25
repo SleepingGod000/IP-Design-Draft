@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>User Profile</title>
+
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/ratingstar.css" rel="stylesheet">
+	<link href="css/notification.css" rel="stylesheet">
+	<link href="css/userProfile.css" rel="stylesheet">
+	<link href="css/footer.css" rel="stylesheet">
+	<link href="css/navberProfile.css" rel="stylesheet">
+	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+	<div class="wrapper">
+		<nav class="navbar-dark navbar-expand-lg bg-dark">     
+			<div class="container-fluid">
+				<div class="row mx-0">
+					<div class="col-md-1 col-lg-1 pt-2">
+						<a class="navbar-brand  ml-sm-2" href="javascript:void(0)">Shop Logo</a>	
+						<button class="navbar-toggler d-md-none d-inline float-right mr-sm-2 mt-2" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						
+						<div class="dropdown py-0 d-md-none d-inline float-right">
+							<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">
+								<div class="navbarProfilePic" style="background-image: url('https://static.zerochan.net/Pixiv.Fantasia%3A.Fallen.Kings.full.1705903.jpg')"></div>
+							</a>
+							<div class="dropdown-menu navbarProfile-menu">
+								<div class="dropdownHeading">
+									<h5>User Name</h5>
+								</div>
+								
+								<div class="navbarProfile-menu-content">
+									<a class="dropdown-item" href="javascript:void(0)">Profile<i class="fa fa-user float-right" aria-hidden="true"></i></a>
+									<a class="dropdown-item" href="javascript:void(0)">Dashboard<i class="fa fa-tachometer float-right" aria-hidden="true"></i></a>
+									<a class="dropdown-item" href="javascript:void(0)">Setting<i class="fa fa-cog float-right" aria-hidden="true"></i></a>
+								</div>
+								
+								<div class="dropdown-divider"></div>
+								
+								<a class="dropdown-item" href="javascript:void(0)">Logout<i class="fa fa-sign-out float-right" aria-hidden="true"></i></a>
+							</div>
+						</div>	
+						<a class="py-0 d-md-none d-inline float-right" href="javascript:void(0)">
+							<span class="fa-stack fa-lg has-badge" data-count="10">
+								<i class="fa fa-shopping-cart fa-stack-1x"></i>
+							</span>
+						</a>
+						<div class="dropdown py-0 d-md-none d-inline float-right">
+							<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">
+								<span class="fa-stack fa-lg has-badge" data-count="10">
+									<i class="fa fa-bell fa-stack-1x btnDropdown"></i>
+								</span>
+							</a>
+							<div class="dropdown-menu notification-menu">
+								<div class="dropdownHeading">
+									<h5>Notification</h5>
+								</div>
+								
+								<div class="notification-menu-content">
+									<ul class="list-unstyled">
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('http://static.zerochan.net/Saber.Lily.full.1907826.jpg')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 1</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>	
+												<p>Date</p>											
+											</div>
+											
+										</li>
+										<div class="dropdown-divider"></div>
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('http://embed.pixiv.net/decorate.php?illust_id=58733032')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 2</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+												<p>Date</p>
+											</div>
+										</li>
+										<div class="dropdown-divider"></div>
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('https://static.zerochan.net/Pixiv.Fantasia%3A.Fallen.Kings.full.1705903.jpg')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 3</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+												<p>Date</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+								
+								<div class="dropdown-divider"></div>
+								
+								<a class="dropdown-item text-center" href="javascript:void(0)">View All</a>
+							</div>
+						</div>	
+					</div>
+					
+					<div class="col-md-6 col-lg-8 pt-0 pt-md-3">
+						<form class="navbar-form" role="search">
+							<div class="searchbar">
+								<input type="text" class="form-control" placeholder="Search">
+								<span class="input-group-btn">
+									<button class="btn btn-outline-success mx-1" type="submit">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</button>
+									<a class="btn btn-outline-info mx-1">
+										Advanced Search
+									</a>
+								</span>
+							</div>
+						</form>
+					</div>			
+					<div class="col-md-5 col-lg-3">
+						<button class="navbar-toggler d-lg-none d-md-inline d-none float-right mr-sm-2 mt-2" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="dropdown d-md-inline d-none float-right">
+							<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">
+								<div class="navbarProfilePic" style="background-image: url('https://static.zerochan.net/Pixiv.Fantasia%3A.Fallen.Kings.full.1705903.jpg')"></div>
+							</a>
+							<div class="dropdown-menu navbarProfile-menu">
+								<div class="dropdownHeading">
+									<h5>User Name</h5>
+								</div>
+								
+								<div class="navbarProfile-menu-content">
+									<a class="dropdown-item" href="javascript:void(0)">Profile<i class="fa fa-user float-right" aria-hidden="true"></i></a>
+									<a class="dropdown-item" href="javascript:void(0)">Dashboard<i class="fa fa-tachometer float-right" aria-hidden="true"></i></a>
+									<a class="dropdown-item" href="javascript:void(0)">Setting<i class="fa fa-cog float-right" aria-hidden="true"></i></a>
+								</div>
+								
+								<div class="dropdown-divider"></div>
+								
+								<a class="dropdown-item" href="javascript:void(0)">Logout<i class="fa fa-sign-out float-right" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<a class="d-md-inline d-none float-right" href="javascript:void(0)">
+							<span class="fa-stack fa-2x has-badge" data-count="10">
+								<i class="fa fa-shopping-cart fa-stack-1x"></i>
+							</span>
+						</a>
+						<div class="dropdown d-md-inline d-none float-right">
+							<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">
+								<span class="fa-stack fa-2x has-badge" data-count="10">
+									<i class="fa fa-bell fa-stack-1x btnDropdown"></i>
+								</span>
+							</a>
+							<div class="dropdown-menu notification-menu">
+								<div class="dropdownHeading">
+									<h5>Notification</h5>
+								</div>
+								
+								<div class="notification-menu-content">
+									<ul class="list-unstyled">
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('http://static.zerochan.net/Saber.Lily.full.1907826.jpg')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 1</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>	
+												<p>Date</p>											
+											</div>
+											
+										</li>
+										<div class="dropdown-divider"></div>
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('http://embed.pixiv.net/decorate.php?illust_id=58733032')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 2</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+												<p>Date</p>
+											</div>
+										</li>
+										<div class="dropdown-divider"></div>
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('https://static.zerochan.net/Pixiv.Fantasia%3A.Fallen.Kings.full.1705903.jpg')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 3</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+												<p>Date</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+								
+								<div class="dropdown-divider"></div>
+								
+								<a class="dropdown-item text-center" href="javascript:void(0)">View All</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="javascript:void(0)">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="javascript:void(0)">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Shop
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="javascript:void(0)">Bicycle</a>
+							<a class="dropdown-item" href="javascript:void(0)">Gadget</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="javascript:void(0)">Contact</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="javascript:void(0)">Login</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!-- Navigation -->
+	
+
+    <!-- Page Content -->
+    <div class="container-fluid my-5">
+		<h1 class="text-center">User profile details</h1>
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="card">
+					<div class="profilePic" style="background-image: url('https://orig00.deviantart.net/9397/f/2015/150/b/3/my_profile_pic_of_another_website_aka_pixiv_by_adventurersassemble-d8vehpt.png')"></div>
+					<div class="card-body">
+						<button href="javascript:void(0)" class="profileEditbtn"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+						<div class="sideprofile">
+							<h4 class="card-title">User Name</h4>
+							 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<fieldset class="rating">
+								<input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+								<input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+								<input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+								<input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+								<input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+								<input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+								<input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+								<input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+								<input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+								<input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>			
+							</fieldset>
+							<h4>4.9 (73 Reviews)</h4>
+							
+							<div class="userDetails">
+								<div class="row">
+									<label for="staticEmail" class="col-sm-4 col-form-label">Email:</label>
+									<div class="col-sm-8">
+										<p id="staticEmail">email@example.com</p>
+									</div>
+								</div>
+								<div class="row">
+									<label for="firstName" class="col-sm-4 col-form-label">First Name:</label>
+									<div class="col-sm-8">
+										<p id="firstName">Example First</p>
+									</div>
+								</div>
+								<div class="row">
+									<label for="lastName" class="col-sm-4 col-form-label">Last Name:</label>
+									<div class="col-sm-8">
+										<p id="lastName">Example Last</p>
+									</div>
+								</div>
+								<div class="row">
+									<label for="DOB" class="col-sm-4 col-form-label">Date of Birth:</label>
+									<div class="col-sm-8">
+										<p id="DOB">11-11-2011</p>
+									</div>
+								</div>
+								<div class="row">
+									<label for="Gender" class="col-sm-4 col-form-label">Gender:</label>
+									<div class="col-sm-8">
+										<p id="DOB">Male</p>
+									</div>
+								</div>
+								<div class="row">
+									<label for="DOB" class="col-sm-4 col-form-label">Address:</label>
+									<div class="col-sm-8">
+										<p id="DOB">11, Jalan 11, Taman 11</p>
+									</div>
+								</div>
+								<div class="row">
+									<label for="phoneNo" class="col-sm-4 col-form-label">Phone Number:</label>
+									<div class="col-sm-8">
+										<p id="phoneNo">011-11111111</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<h4 class="card-title">Description</h4>
+						 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in sem et tellus posuere vulputate eget id neque. Donec justo enim, vulputate nec diam ac, blandit vehicula metus. Duis mattis placerat consequat. Phasellus est erat, bibendum quis dolor sit amet, tincidunt porta sem. Pellentesque eleifend aliquam lorem, at convallis ante hendrerit eu. Aliquam erat volutpat. Vestibulum rhoncus tincidunt hendrerit. Vivamus auctor erat eget accumsan elementum. Maecenas eu ex sit amet lectus tincidunt bibendum. Fusce non elit egestas, commodo risus ut, mollis justo.</p>
+					</div>
+					<div class="card-divider"></div>
+					<div class="card-body">
+						<h4 class="card-title">Language</h4>
+						 <p class="card-text"><strong>English(UK)</strong>- Fluent</p>
+						 <p class="card-text"><strong>Germac(Deutsch)</strong>- Fluent</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-9">
+				<div class="container shop">
+					<div class="card my-5">
+						<div class="card-body">
+							Shop Name
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-6 mb-4">
+							<div class="card h-100">
+								<a href="javascript:void(0)"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title"><a href="javascript:void(0)">Item One</a></h4>
+									<h5>$24.99</h5>
+									<p class="card-text block-with-text line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-6 mb-4">
+							<div class="card h-100">
+								<a href="javascript:void(0)"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title"><a href="javascript:void(0)">Item Two</a></h4>
+									<h5>$24.99</h5>
+									<p class="card-text block-with-text line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-6 mb-4">
+							<div class="card h-100">
+								<a href="javascript:void(0)"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title"><a href="javascript:void(0)">Item Three</a></h4>
+									<h5>$24.99</h5>
+									<p class="card-text block-with-text line-clamp-3">Lorem ipsum dolor sit amek jhgfdxn jmkjhgf dxcvbn jhygfdcv bnmjht fdxc vb njhtfr dszxcv bnhj gfdxcvb njhgfdxcvb nhgft, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-6 mb-4">
+							<div class="card h-100">
+								<a href="javascript:void(0)"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title"><a href="javascript:void(0)">Item Four</a></h4>
+									<h5>$24.99</h5>
+									<p class="card-text block-with-text line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-6 mb-4">
+							<div class="card h-100">
+								<a href="javascript:void(0)"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title"><a href="javascript:void(0)">Item Five</a></h4>
+									<h5>$24.99</h5>
+									<p class="card-text block-with-text line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-6 mb-4">
+							<div class="card h-100">
+								<a href="javascript:void(0)"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title"><a href="javascript:void(0)">Item Six</a></h4>
+									<h5>$24.99</h5>
+									<p class="card-text block-with-text line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container commentSection">
+					<div class="card">
+						<div class="card-header">
+							<h3>Seller Name's Reviews <span class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</span> 5( 4,936 )</h3>					
+						</div>
+						<div class="card-body">
+							<div class="commentSection-content">
+								<ul class="list-unstyled">
+									<li class="media">
+										<div class="comment-pic mr-3" style="background-image: url('http://images2.fanpop.com/images/polls/308000/308327_1254695563998_full.jpg')"></div>
+										<div class="media-body">
+											<h4 class="mt-0">Username 1</h4>
+											<h5><span class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</span> Date & Time</h5>
+											Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+										</div>							
+									</li>
+									<div class="card-divider"></div>
+									<li class="media">
+										<div class="comment-pic mr-3" style="background-image: url('http://i0.kym-cdn.com/photos/images/facebook/000/897/576/ce1.jpg')"></div>
+										<div class="media-body">
+											<h4 class="mt-0">Username 2</h4>
+											<h5><span class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</span> Date & Time</h5>
+											Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+										</div>							
+									</li>
+									<div class="card-divider"></div>
+									<li class="media">
+										<div class="comment-pic mr-3" style="background-image: url('https://shinhwasub.files.wordpress.com/2012/05/15dobq.jpg')"></div>
+										<div class="media-body">
+											<h4 class="mt-0">Username 3</h4>
+											<h5><span class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</span> Date & Time</h5>
+											Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+										</div>							
+									</li>
+									<div class="card-divider"></div>
+									<li class="media">
+										<div class="comment-pic mr-3" style="background-image: url('http://24.media.tumblr.com/6bbea21ac78c60b01d84ff6769f3c85e/tumblr_mhw6msK96f1rnk2vvo1_500.jpg')"></div>
+										<div class="media-body">
+											<h4 class="mt-0">Username 4</h4>
+											<h5><span class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</span> Date & Time</h5>
+											Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+										</div>							
+									</li>
+									<div class="card-divider"></div>
+									<li class="media">
+										<div class="comment-pic mr-3" style="background-image: url('http://i.imgur.com/7QlIFV4.png')"></div>
+										<div class="media-body">
+											<h4 class="mt-0">Username 5</h4>
+											<h5><span class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</span> Date & Time</h5>
+											Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+										</div>							
+									</li>
+									<div class="card-divider"></div>
+									<li class="media">
+										<div class="comment-pic mr-3" style="background-image: url('http://vignette4.wikia.nocookie.net/yugioh/images/0/04/ReiScaryFace.jpg/revision/latest?cb=20130401034545')"></div>
+										<div class="media-body">
+											<h4 class="mt-0">Username 6</h4>
+											<h5><span class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</span> Date & Time</h5>
+											Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+										</div>							
+									</li>
+									<div class="card-divider"></div>
+									<li class="media">
+										<div class="comment-pic mr-3" style="background-image: url('http://i.imgur.com/46YvBec.png')"></div>
+										<div class="media-body">
+											<h4 class="mt-0">Username 7</h4>
+											<h5><span class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</span> Date & Time</h5>
+											Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+										</div>							
+									</li>
+									<div class="card-divider"></div>
+									<li class="text-center">
+										<a href="javascript:void(0)" class="btn"><h4>View More</h4></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<!-- Footer -->
+	<footer class="py-5 bg-dark">
+		<div class="container">
+			<p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+		</div>
+		<!-- /.container -->
+	</footer>
+</body>
+
+</html>

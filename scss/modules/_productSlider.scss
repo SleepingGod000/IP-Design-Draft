@@ -1,0 +1,60 @@
+#myCarousel {
+  .list-inline {
+    white-space: nowrap;
+    overflow: auto;
+    overflow-y: hidden;
+  }
+  .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+    > li {
+      width: initial;
+      height: initial;
+      text-indent: initial;
+      &.active img {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+.sliderSelector {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 5px solid #ddd;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded border */
+  margin-left: .25rem;
+  margin-right: .25rem;
+}
+
+.sliderContainer {
+  width: 1200px;
+  height: 480px;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 100%;
+}
+
+figure.sliderContainer {
+  position: absolute;
+}
+
+.sliderImage {
+  position: absolute;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+}

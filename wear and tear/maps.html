@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Bicycle shop locator around Malaysia</title>
+  </head>
+  <body>
+    <h1>Bicycle shop locator around Malaysia</h1>
+    <p>Sign in into your google account and enable location so that we can recommend the nearest bicycle shop based on the capital of the state or federal territory.</p>
+
+    <select id="Maps">
+        <option value="Johor" id="Johor">Johor, Johor Bahru</option>
+        <option value="Kedah" id="Kedah">Kedah, Alor Setar</option>
+        <option value="Kelantan" id="Kelantan">Kelantan, Kota Bahru</option>
+        <option value="Melaka" id="Melaka">Melaka, Melaka City</option>
+        <option value="NegeriSembilan" id="NegeriSembilan">Negeri Sembilan, Seremban</option>
+        <option value="Pahang" id="Pahang">Pahang, Kuantan</option>
+        <option value="Perak" id="Perak">Perak, Ipoh</option>
+        <option value="Perlis" id="Perlis">Perlis, Kangar</option>
+        <option value="Penang" id="Penang">Penang, Georgetown</option>
+        <option value="Sabah" id="Sabah">Sabah, Kota Kinabalu</option>
+        <option value="Sarawak" id="Sarawak">Sarawak, Kuching</option>
+        <option value="Terengganu" id="Terengganu">Terengganu, Kuala Terengganu</option>
+        <option value="Kuala Lumpur" id="Kuala Lumpur">Kuala Lumpur, Kuala Lumpur</option>
+        <option value="Labuan" id="Labuan">Labuan, Victoria</option>
+        <option value="Putrajaya" id="Putrajaya">Putrajaya, Putrajaya</option>
+    </select>
+    <button type="button" onclick="Maps()" id="maps">Click to show results</button>
+    <br>
+    <br>
+
+    <div class="Maps">
+      <iframe src="" id="mapsType" width="900" height="600" frameborder="0" style="border:0" allowfullscreen scrolling="yes" ></iframe>
+    </div>
+
+
+  </body>
+</html>

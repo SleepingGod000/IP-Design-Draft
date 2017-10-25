@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<title>Bicycle wear and tear checker</title>
+</head>
+	<body>
+		<h1>Bicycle wear and tear checker</h1>
+		<p>Enter the number of estimated distance you have travelled in kilometers(km) in the box below.*</p>
+
+		<select id="type">
+			<option value="road" id="road">Road</option>
+			<option value="mountain" id="mountain">Mountain</option>
+		</select>
+
+		<br>
+		<br>
+
+		<select id="service" onchange="service(this)">
+			<option value="service" id="service">Servicing</option>
+			<option value="wear" id="wear">Wear and tear</option>
+		</select>
+		<input type="number" id="km">
+		<button type="button" onclick="calculate()" id="calculate">Calculate</button>
+		<p id="output"></p>
+
+		<select id="duration" onchange="duration(this)">
+			<option value="6000-7000km">6000-7000km</option>
+			<option value="10,000km">10,000km</option>
+			<option value="6 months">6 months</option>
+			<option value="1 year">1 year</option>
+		</select>
+		<button type="button" onclick="showResults()" id="showResults">Show replacement parts needed to be changed</button>
+		<p id="possibilities"></p>
+		<p id="links2"></p>
+		<p id="links4"></p>
+		<p id="links6"></p>
+		<p id="links8"></p>
+
+		<footer>
+			<p>*Results shown are not 100% accurate as it depends on a cyclist own style of riding.</p>
+			<p>The results obtained are based on common practices applied by bicycle mechanics around the world.</p>
+		</footer>
+
+	</body>
+</html>

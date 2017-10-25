@@ -1,0 +1,20 @@
+.shortimg {
+  height: 180px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#BtnWishList, #additem {
+  cursor: pointer;
+  color: white;
+}
+
+.blocked {
+  border: 2px solid red;
+}
+
+.curPage {
+  font-weight: bold;
+  font-size: 16px;
+}

@@ -1,0 +1,73 @@
+fieldset, label {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+}
+
+#rateYo {
+  padding-right: 10px;
+  padding-top: 10px;
+  position: relative;
+  float: left;
+}
+
+#rateYo2 {
+  margin: auto;
+  padding-right: 10px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+}
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+  border: none;
+  float: left;
+  > {
+    input {
+      display: none;
+    }
+    label:before {
+      margin: 5px;
+      font-size: 2em;
+      font-family: FontAwesome;
+      display: inline-block;
+      content: "\f005";
+    }
+    .half:before {
+      content: "\f089";
+      position: absolute;
+    }
+    label {
+      color: #ddd;
+      float: right;
+    }
+    input:checked ~ label {
+      color: #FFD700;
+    }
+  }
+  &:not(:checked) > label:hover {
+    color: #FFD700;
+    ~ label {
+      color: #FFD700;
+    }
+  }
+  > {
+    input:checked {
+      + label:hover, ~ label:hover {
+        color: #FFED85;
+      }
+    }
+    label:hover ~ input:checked ~ label, input:checked ~ label:hover ~ label {
+      color: #FFED85;
+    }
+  }
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+/* hover previous stars in list */

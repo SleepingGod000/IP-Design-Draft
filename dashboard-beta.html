@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Item Description</title>
+
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/productSlider.css" rel="stylesheet">
+	<link href="css/ratingstar.css" rel="stylesheet">
+	<link href="css/notification.css" rel="stylesheet">
+	<link href="css/dashboard.css" rel="stylesheet">
+	<link href="css/footer.css" rel="stylesheet">
+	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script src="js/dashboard.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+	<div class="wrapper">
+		<nav class="navbar-dark navbar-expand-lg bg-dark">     
+			<div class="container-fluid">
+				<div class="row mx-0">
+					<div class="col-md-1 col-lg-2 pt-2">
+						<a class="navbar-brand  ml-sm-2" href="#">Shop Logo</a>	
+						<button class="navbar-toggler d-md-none d-inline float-right mr-sm-2 mt-2" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>	
+						<a class="py-0 d-md-none d-inline float-right" href="#">
+							<span class="fa-stack fa-2x has-badge" data-count="10">
+								<i class="fa fa-shopping-cart fa-stack-1x"></i>
+							</span>
+						</a>
+						<div class="dropdown py-0 d-md-none d-inline float-right">
+							<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+								<span class="fa-stack fa-2x has-badge" data-count="10">
+									<i class="fa fa-bell fa-stack-1x btnDropdown"></i>
+								</span>
+							</a>
+							<div class="dropdown-menu notification-menu">
+								<div class="dropdownHeading">
+									<h5>Notification</h5>
+								</div>
+								
+								<div class="notification-menu-content">
+									<ul class="list-unstyled">
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('http://static.zerochan.net/Saber.Lily.full.1907826.jpg')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 1</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>	
+												<p>Date</p>											
+											</div>
+											
+										</li>
+										<div class="dropdown-divider"></div>
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('http://embed.pixiv.net/decorate.php?illust_id=58733032')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 2</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+												<p>Date</p>
+											</div>
+										</li>
+										<div class="dropdown-divider"></div>
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('https://static.zerochan.net/Pixiv.Fantasia%3A.Fallen.Kings.full.1705903.jpg')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 3</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+												<p>Date</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+								
+								<div class="dropdown-divider"></div>
+								
+								<a class="dropdown-item text-center" href="#">View All</a>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-md-7 col-lg-8 pt-0 pt-md-3">
+						<form class="navbar-form" role="search">
+							<div class="searchbar">
+								<input type="text" class="form-control" placeholder="Search">
+								<span class="input-group-btn">
+									<button class="btn btn-outline-success mx-1" type="submit">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</button>
+									<button class="btn btn-outline-info mx-1" type="submit">
+										Advanced Search
+									</button>
+								</span>
+							</div>
+						</form>
+					</div>			
+					<div class="col-md-4 col-lg-2">
+						<button class="navbar-toggler d-lg-none d-md-inline d-none float-right mr-sm-2 mt-2" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<a class="d-md-inline d-none float-right" href="#">
+							<span class="fa-stack fa-2x has-badge" data-count="10">
+								<i class="fa fa-shopping-cart fa-stack-1x"></i>
+							</span>
+						</a>
+						<div class="dropdown d-md-inline d-none float-right">
+							<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+								<span class="fa-stack fa-2x has-badge" data-count="10">
+									<i class="fa fa-bell fa-stack-1x btnDropdown"></i>
+								</span>
+							</a>
+							<div class="dropdown-menu notification-menu">
+								<div class="dropdownHeading">
+									<h5>Notification</h5>
+								</div>
+								
+								<div class="notification-menu-content">
+									<ul class="list-unstyled">
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('http://static.zerochan.net/Saber.Lily.full.1907826.jpg')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 1</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>	
+												<p>Date</p>											
+											</div>
+											
+										</li>
+										<div class="dropdown-divider"></div>
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('http://embed.pixiv.net/decorate.php?illust_id=58733032')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 2</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+												<p>Date</p>
+											</div>
+										</li>
+										<div class="dropdown-divider"></div>
+										<li class="media">
+											<div class="notificationPic" style="background-image: url('https://static.zerochan.net/Pixiv.Fantasia%3A.Fallen.Kings.full.1705903.jpg')"></div>
+											<div class="media-body">
+												<h5 class="mt-0 mb-1">Title 3</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+												<p>Date</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+								
+								<div class="dropdown-divider"></div>
+								
+								<a class="dropdown-item text-center" href="#">View All</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Shop
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Bicycle</a>
+							<a class="dropdown-item" href="#">Gadget</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Login</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	
+
+    <!-- Page Content -->
+    <div class="container my-5">
+		<div class="row">
+			<div class="col-lg-3">
+				<span class="d-md-none d-inline" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Sidebar</span>
+				<div id="profileSidenav" class="sidenav">
+					<a href="javascript:void(0)" class="sidenavClosebtn" onclick="closeNav()">&times;</a>
+					<a href="#">Profile</a>
+					<a href="#">Notification</a>
+					<a href="#">History</a>
+					<a href="#">Wistlist</a>
+					<a href="#">Blacklist</a>
+					<a href="#">Product List</a>
+					<a href="#">Statistic</a>
+					<a href="#">Setting</a>
+				</div>
+				<div id="profile" class="sidenav">
+					<a href="javascript:void(0)" class="sidenavClosebtn" onclick="closeNav()">&times;</a>
+					<a href="#">Profile</a>
+					<a href="#">Notification</a>
+					<a href="#">History</a>
+					<a href="#">Wistlist</a>
+					<a href="#">Blacklist</a>
+					<a href="#">Product List</a>
+					<a href="#">Statistic</a>
+					<a href="#">Setting</a>
+				</div>
+				
+			</div>
+			<div class="col-lg-9">
+				<h1 class="text-center">User profile details</h1>
+				<div class="profilePic">
+					<img class="rounded-circle img-fluid border border-dark" src="https://orig00.deviantart.net/9397/f/2015/150/b/3/my_profile_pic_of_another_website_aka_pixiv_by_adventurersassemble-d8vehpt.png">
+				</div>
+				<form>
+					<div class="form-group row">
+						<label for="staticEmail" class="col-sm-2 col-form-label">Email:</label>
+						<div class="col-sm-10">
+							<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="firstName" class="col-sm-2 col-form-label">First Name:</label>
+						<div class="col-sm-10">
+							<input type="text" readonly class="form-control-plaintext" id="firstName" value="Example First">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="lastName" class="col-sm-2 col-form-label">Last Name:</label>
+						<div class="col-sm-10">
+							<input type="text" readonly class="form-control-plaintext" id="lastName" value="Example Last">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="DOB" class="col-sm-2 col-form-label">Date of Birth:</label>
+						<div class="col-sm-10">
+							<input type="text" readonly class="form-control-plaintext" id="DOB" value="11-11-2011">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="Gender" class="col-sm-2 col-form-label">Gender:</label>
+						<div class="col-sm-10">
+							<input type="text" readonly class="form-control-plaintext" id="DOB" value="Male">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="DOB" class="col-sm-2 col-form-label">Address:</label>
+						<div class="col-sm-10">
+							<input type="text" readonly class="form-control-plaintext" id="DOB" value="11, Jalan 11, Taman 11">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="phoneNo" class="col-sm-2 col-form-label">Phone Number:</label>
+						<div class="col-sm-10">
+							<input type="text" readonly class="form-control-plaintext" id="phoneNo" value="011-11111111">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<!-- Footer -->
+	<footer class="py-5 bg-dark">
+		<div class="container">
+			<p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+		</div>
+		<!-- /.container -->
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+10/10/17
+
+Create userProfile.html, userProfile.css
+
+add html and body css in style.css (for footer)
+
+add footer.css to make footer always at the bottom of the webpage
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+11/10/17
+
+changed user profile page content col from md to lg
+
+changed body padding-bottom from 6rem to 8rem
+
+remove .useronly div since those content should included in profile page
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+12/10/17
+
+change all img to background image of div
+change css of profilePic in userProfile.css

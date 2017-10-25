@@ -1,0 +1,14 @@
+figure.zoom {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 500px;
+  overflow: hidden;
+  cursor: zoom-in;
+  div {
+    &:hover {
+      opacity: 0;
+    }
+    transition: opacity .5s;
+    display: block;
+  }
+}

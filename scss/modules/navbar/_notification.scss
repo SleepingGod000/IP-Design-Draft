@@ -1,0 +1,119 @@
+.dropdown > a:focus {
+  color: white;
+}
+
+.dropdownHeading {
+  background-clip: padding-box;
+  background-color: #fff;
+  border-bottom: solid 1px #dddfe2;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+}
+
+.notification-menu {
+  top: 1.5rem !important;
+  left: -6.5rem !important;
+  &:before {
+    content: "";
+    border-bottom: 15px solid #fff;
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    position: absolute;
+    top: -14px;
+    right: 57px;
+    z-index: 10;
+  }
+}
+
+.notification-menu-content > ul > .dropdown-divider, .notification-menu > .dropdown-divider {
+  margin: 0;
+}
+
+.notification-unread {
+  background: rgb(235, 235, 235);
+}
+
+.notification-menu-content {
+  > ul > li {
+    &.media {
+      padding: 7px 0px;
+    }
+    > .media-body > p {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+  }
+  height: auto;
+  max-height: 400px;
+  width: 400px;
+  overflow-x: hidden;
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+  }
+  &::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #777777;
+  }
+}
+
+.notificationPic {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-left: .25rem;
+  margin-right: 1rem;
+}
+
+.NotiTitle {
+  font-size: 17px;
+  margin: 0;
+  margin-top: 7px;
+}
+
+.NotiNo {
+  text-align: center;
+  color: gray;
+  padding-top: 10px;
+}
+
+@media (max-width: 992px) {
+  .notification-menu:before {
+    right: 105px;
+  }
+}
+
+@media (max-width: 530px) {
+  .dropdown.show {
+    position: static;
+  }
+  .notification-menu {
+    left: 0 !important;
+    &:before {
+      right: 145px;
+    }
+  }
+  .notification-menu-content {
+    width: 100%;
+  }
+  .notificationPic {
+    width: 50px;
+    height: 50px;
+    align-self: center !important;
+  }
+}

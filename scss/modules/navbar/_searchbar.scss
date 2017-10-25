@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .searchbar {
+    width: 50% !important;
+  }
+}
+
+.searchbar {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
