@@ -1,3 +1,2 @@
 # IP-Design-Draft
-Draft of the webpages fo
-daskldjasldkjkl
+Draft of the website design for Implementation Projec Assignment
