@@ -322,54 +322,108 @@
 									</tr>
 								</tfoot>
 								<tbody>
-									<a data-toggle="modal" data-target="#R-#0001-description">
-										<tr>
-										  <td>R#0001</td>
-										  <td>System Architect</td>
-										  <td>Edinburgh</td>
-										  <td>61</td>
-										  <td>2011/04/25</td>
-										  <td>$320,800</td>
-										  <td>$320,800</td>
-										  <td>
-											<div class="dropdown">
-											  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-												Status
-											  </button>
-											  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												<a class="dropdown-item" href="">Packing</a>
-												<a class="dropdown-item" href="">Shipping</a>
-												<a class="dropdown-item" href="">Shipped</a>
-											  </div>
-											</div>
-										  </td>
-										</tr>
-									</a>
+									<tr data-toggle="modal" data-target="#receiptDescription">
+									  <td>R#0001</td>
+									  <td>C#0001</td>
+									  <td>Edinburgh</td>
+									  <td>8/9/2017</td>
+									  <td>some address</td>
+									  <td>100</td>
+									  <td>$320,800</td>
+									  <td>
+										<div class="dropdown">
+										  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Status
+										  </button>
+										  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="">Order Placed</a>
+											<a class="dropdown-item" href="">Shipping</a>
+											<a class="dropdown-item" href="">Completed</a>
+										  </div>
+										</div>
+									  </td>
+									</tr><tr data-toggle="modal" data-target="#receiptDescription">
+									  <td>R#0002</td>
+									  <td>C#0002</td>
+									  <td>Ingram</td>
+									  <td>1/8/2017</td>
+									  <td>some address</td>
+									  <td>500</td>
+									  <td>$320,800</td>
+									  <td>
+										<div class="dropdown">
+										  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Status
+										  </button>
+										  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="">Order Placed</a>
+											<a class="dropdown-item" href="">Shipping</a>
+											<a class="dropdown-item" href="">Completed</a>
+										  </div>
+										</div>
+									  </td>
+									</tr>
 								</tbody>		
 							</table>
-							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Woohoo, you're reading this text in a modal!</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+							<!--Product tracking Modal-->
+							<div class="modal fade" id="receiptDescription" tabindex="-1" role="dialog" aria-labelledby="receiptDescriptionLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								  <div class="modal-header">
+									<h5 class="modal-title" id="receiptDescriptionLabel"></h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
+								  </div>
+								  <div id="receiptContent" class="modal-body">
+								  </div>
+								<div class="container">
+									<div class="row"><br />
+										<div class="col-md-12">
+											<div class="progress">
+												<div class="orderPlaced bg-primary"><i class="fa fa-shopping-basket fa-2x" aria-hidden="true"></i></div>
+												<div class="inProgress bg-primary"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></div>
+												<div class="shipped bg-primary"><i class="fa fa-truck fa-2x" aria-hidden="true"></i></div>
+												<div class="delived bg-primary"><i class="fa fa-gift fa-2x" aria-hidden="true"></i></div>
+												<div class="completed no-color"><i class="fa fa-check fa-2x" aria-hidden="true"></i></div>
+												<div class="progress-bar" style="width: 75%;"></div>
+											</div>
+										</div>
+									</div>
+									<div class="row"><br />
+										<div class="col-md-12">
+											<div class="progressbarLabel">
+												<div class="orderPlacedLabel">
+													<small>Order Placed</small>
+												</div>
+												<div class="inProgressLabel">
+													<small>In Progress</small>
+												</div>
+												<div class="shippedLabel">
+													<small>Shipped</small>
+												</div>
+												<div class="delivedLabel">
+													<small>Delived</small>
+												</div>
+												<div class="completedLabel">
+													<small>Completed</small>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Save changes</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<!--Product tracking Modal-->
 						</div>
 					</div>
 					<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-				</div>		
+				</div>
 			</main>
 		</div>
     </div>
