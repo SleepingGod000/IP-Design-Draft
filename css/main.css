@@ -1377,6 +1377,87 @@ body {
   width: auto !important;
 }
 
+/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.orderPlaced, .inProgress, .shipped, .delived, .completed {
+  position: absolute;
+  margin-top: -10px;
+  z-index: 1;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+}
+
+/* line 12, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.orderPlaced i, .inProgress i, .shipped i, .delived i, .completed i {
+  margin-top: 5px;
+  color: #FFFFFF;
+}
+
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.orderPlaced {
+  left: 2%;
+}
+
+/* line 20, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.inProgress {
+  left: 22%;
+}
+
+/* line 23, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.shipped {
+  left: 44%;
+}
+
+/* line 26, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.delived {
+  left: 66%;
+}
+
+/* line 29, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.completed {
+  left: 90%;
+}
+
+/* line 33, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.no-color {
+  background-color: inherit;
+}
+
+/* line 37, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel {
+  margin-bottom: 10px;
+}
+
+/* line 39, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel .orderPlacedLabel {
+  position: absolute;
+  left: 0%;
+}
+
+/* line 43, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel .inProgressLabel {
+  position: absolute;
+  left: 20%;
+}
+
+/* line 47, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel .shippedLabel {
+  position: absolute;
+  left: 44%;
+}
+
+/* line 51, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel .delivedLabel {
+  position: absolute;
+  left: 66%;
+}
+
+/* line 55, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel .completedLabel {
+  position: absolute;
+  left: 85%;
+}
+
 /*
  * bootstrap-tagsinput v0.8.0
  * 
