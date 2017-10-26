@@ -1,10 +1,10 @@
-/* line 1, L:/Implementation Project/Website Design Draft/scss/base/_reset.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/base/_reset.scss */
 html {
   height: 100%;
   box-sizing: border-box;
 }
 
-/* line 6, L:/Implementation Project/Website Design Draft/scss/base/_reset.scss */
+/* line 6, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/base/_reset.scss */
 body {
   position: relative;
   margin: 0;
@@ -13,7 +13,7 @@ body {
   min-height: 100%;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/base/_footer.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/base/_footer.scss */
 footer {
   position: absolute;
   right: 0;
@@ -23,14 +23,14 @@ footer {
   height: 1rem;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/_typography.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_typography.scss */
 h1 {
   margin-bottom: 20px;
   padding-bottom: 9px;
   border-bottom: 1px solid #eee;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbar.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbar.scss */
 .wrapper {
   position: fixed;
   top: 0;
@@ -39,7 +39,7 @@ h1 {
   z-index: 1030;
 }
 
-/* line 9, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbar.scss */
+/* line 9, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbar.scss */
 .fa-stack[data-count]:after {
   position: absolute;
   right: 10%;
@@ -57,13 +57,13 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  /* line 2, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_searchbar.scss */
+  /* line 2, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_searchbar.scss */
   .searchbar {
     width: 50% !important;
   }
 }
 
-/* line 7, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_searchbar.scss */
+/* line 7, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_searchbar.scss */
 .searchbar {
   width: 100%;
   display: flex;
@@ -72,13 +72,13 @@ h1 {
   margin-left: auto !important;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbarProfile.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbarProfile.scss */
 .navbarProfile-menu {
   top: 1.5rem !important;
   left: -2rem !important;
 }
 
-/* line 4, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbarProfile.scss */
+/* line 4, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbarProfile.scss */
 .navbarProfile-menu:before {
   content: "";
   border-bottom: 15px solid #fff;
@@ -90,18 +90,18 @@ h1 {
   z-index: 10;
 }
 
-/* line 16, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbarProfile.scss */
+/* line 16, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbarProfile.scss */
 .ViewProfileOption {
   margin-top: 7px;
 }
 
-/* line 20, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbarProfile.scss */
+/* line 20, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbarProfile.scss */
 .RequestLogin {
   padding-top: 10px;
   padding-left: 3px;
 }
 
-/* line 25, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbarProfile.scss */
+/* line 25, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbarProfile.scss */
 .navbarProfilePic {
   width: 50px;
   height: 50px;
@@ -115,37 +115,37 @@ h1 {
 }
 
 @media (max-width: 992px) {
-  /* line 38, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbarProfile.scss */
+  /* line 38, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbarProfile.scss */
   .navbarProfile-menu:before {
     right: 55px;
   }
 }
 
 @media (max-width: 530px) {
-  /* line 44, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbarProfile.scss */
+  /* line 44, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbarProfile.scss */
   .dropdown.show {
     position: static;
   }
-  /* line 47, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbarProfile.scss */
+  /* line 47, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbarProfile.scss */
   .navbarProfile-menu {
     left: 0 !important;
   }
-  /* line 49, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbarProfile.scss */
+  /* line 49, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbarProfile.scss */
   .navbarProfile-menu:before {
     right: 80px;
   }
-  /* line 53, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_navbarProfile.scss */
+  /* line 53, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_navbarProfile.scss */
   .navbarProfile-menu-content {
     width: 100%;
   }
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .dropdown > a:focus {
   color: white;
 }
 
-/* line 5, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .dropdownHeading {
   background-clip: padding-box;
   background-color: #fff;
@@ -158,13 +158,13 @@ h1 {
   text-align: center;
 }
 
-/* line 17, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notification-menu {
   top: 1.5rem !important;
   left: -6.5rem !important;
 }
 
-/* line 20, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 20, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notification-menu:before {
   content: "";
   border-bottom: 15px solid #fff;
@@ -176,17 +176,17 @@ h1 {
   z-index: 10;
 }
 
-/* line 32, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 32, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notification-menu-content > ul > .dropdown-divider, .notification-menu > .dropdown-divider {
   margin: 0;
 }
 
-/* line 36, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 36, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notification-unread {
   background: #ebebeb;
 }
 
-/* line 40, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 40, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notification-menu-content {
   height: auto;
   max-height: 400px;
@@ -194,12 +194,12 @@ h1 {
   overflow-x: hidden;
 }
 
-/* line 42, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 42, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notification-menu-content > ul > li.media {
   padding: 7px 0px;
 }
 
-/* line 45, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 45, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notification-menu-content > ul > li > .media-body > p {
   overflow: hidden;
   display: -webkit-box;
@@ -207,27 +207,27 @@ h1 {
   -webkit-box-orient: vertical;
 }
 
-/* line 56, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 56, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notification-menu-content::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   background-color: #F5F5F5;
 }
 
-/* line 61, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 61, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notification-menu-content::-webkit-scrollbar {
   width: 12px;
   background-color: #F5F5F5;
 }
 
-/* line 65, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 65, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notification-menu-content::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #777777;
 }
 
-/* line 72, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 72, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .notificationPic {
   width: 70px;
   height: 70px;
@@ -239,14 +239,14 @@ h1 {
   margin-right: 1rem;
 }
 
-/* line 83, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 83, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .NotiTitle {
   font-size: 17px;
   margin: 0;
   margin-top: 7px;
 }
 
-/* line 89, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+/* line 89, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
 .NotiNo {
   text-align: center;
   color: gray;
@@ -254,30 +254,30 @@ h1 {
 }
 
 @media (max-width: 992px) {
-  /* line 96, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+  /* line 96, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
   .notification-menu:before {
     right: 105px;
   }
 }
 
 @media (max-width: 530px) {
-  /* line 102, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+  /* line 102, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
   .dropdown.show {
     position: static;
   }
-  /* line 105, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+  /* line 105, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
   .notification-menu {
     left: 0 !important;
   }
-  /* line 107, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+  /* line 107, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
   .notification-menu:before {
     right: 145px;
   }
-  /* line 111, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+  /* line 111, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
   .notification-menu-content {
     width: 100%;
   }
-  /* line 114, L:/Implementation Project/Website Design Draft/scss/modules/navbar/_notification.scss */
+  /* line 114, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/navbar/_notification.scss */
   .notificationPic {
     width: 50px;
     height: 50px;
@@ -285,7 +285,7 @@ h1 {
   }
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/_lineClamp.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_lineClamp.scss */
 .block-with-text {
   display: block;
   display: -webkit-box;
@@ -297,7 +297,7 @@ h1 {
   padding: 0 !important;
 }
 
-/* line 10, L:/Implementation Project/Website Design Draft/scss/modules/_lineClamp.scss */
+/* line 10, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_lineClamp.scss */
 .block-with-text:after {
   content: '...';
   text-align: right;
@@ -311,50 +311,50 @@ h1 {
 }
 
 @supports (-webkit-line-clamp: 1) {
-  /* line 24, L:/Implementation Project/Website Design Draft/scss/modules/_lineClamp.scss */
+  /* line 24, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_lineClamp.scss */
   .block-with-text:after {
     display: none !important;
   }
 }
 
-/* line 29, L:/Implementation Project/Website Design Draft/scss/modules/_lineClamp.scss */
+/* line 29, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_lineClamp.scss */
 .line-clamp-1 {
   -webkit-line-clamp: 1;
   height: calc(1em * 1.2 * 1);
 }
 
-/* line 34, L:/Implementation Project/Website Design Draft/scss/modules/_lineClamp.scss */
+/* line 34, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_lineClamp.scss */
 .line-clamp-2 {
   -webkit-line-clamp: 2;
   height: calc(1em * 1.2 * 2);
 }
 
-/* line 39, L:/Implementation Project/Website Design Draft/scss/modules/_lineClamp.scss */
+/* line 39, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_lineClamp.scss */
 .line-clamp-3 {
   -webkit-line-clamp: 3;
   height: calc(1em * 1.2 * 3);
 }
 
-/* line 44, L:/Implementation Project/Website Design Draft/scss/modules/_lineClamp.scss */
+/* line 44, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_lineClamp.scss */
 .line-clamp-4 {
   -webkit-line-clamp: 4;
   height: calc(1em * 1.2 * 4);
 }
 
-/* line 49, L:/Implementation Project/Website Design Draft/scss/modules/_lineClamp.scss */
+/* line 49, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_lineClamp.scss */
 .line-clamp-5 {
   -webkit-line-clamp: 5;
   height: calc(1em * 1.2 * 5);
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/_addtag.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_addtag.scss */
 #tagfield {
   height: 100px;
   width: 500px;
   border: solid 1px black;
 }
 
-/* line 7, L:/Implementation Project/Website Design Draft/scss/modules/_addtag.scss */
+/* line 7, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_addtag.scss */
 .tag.label.label-info {
   background: #66ccff;
   padding: 2px 4px 4px 4px;
@@ -362,36 +362,36 @@ h1 {
   color: white;
 }
 
-/* line 14, L:/Implementation Project/Website Design Draft/scss/modules/_addtag.scss */
+/* line 14, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_addtag.scss */
 #EnterQuantity {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-/* line 17, L:/Implementation Project/Website Design Draft/scss/modules/_addtag.scss */
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_addtag.scss */
 #EnterQuantity tr, #EnterQuantity th, #EnterQuantity td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-/* line 21, L:/Implementation Project/Website Design Draft/scss/modules/_addtag.scss */
+/* line 21, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_addtag.scss */
 #EnterQuantity tr td {
   padding: 1px 4px 1px 1px;
 }
 
-/* line 23, L:/Implementation Project/Website Design Draft/scss/modules/_addtag.scss */
+/* line 23, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_addtag.scss */
 #EnterQuantity tr td:first-child {
   padding: 1px 10px;
 }
 
-/* line 29, L:/Implementation Project/Website Design Draft/scss/modules/_addtag.scss */
+/* line 29, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_addtag.scss */
 #StoreTable {
   height: 300px;
   width: 500px;
   overflow: scroll;
 }
 
-/* line 35, L:/Implementation Project/Website Design Draft/scss/modules/_addtag.scss */
+/* line 35, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_addtag.scss */
 .Qtablecell {
   border: 0px;
   text-align: right;
@@ -400,17 +400,17 @@ h1 {
   margin: 1px;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/_cartButtons.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_cartButtons.scss */
 .RefreshThis, .DeleteCurrentItem {
   color: blue;
 }
 
-/* line 4, L:/Implementation Project/Website Design Draft/scss/modules/_cartButtons.scss */
+/* line 4, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_cartButtons.scss */
 .RefreshThis:hover, .DeleteCurrentItem:hover {
   cursor: pointer;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/_imgPreview.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_imgPreview.scss */
 .thumbnail {
   width: 150px;
   height: 150px;
@@ -421,7 +421,7 @@ h1 {
   background-repeat: no-repeat;
 }
 
-/* line 11, L:/Implementation Project/Website Design Draft/scss/modules/_imgPreview.scss */
+/* line 11, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_imgPreview.scss */
 .ThumnailCover {
   opacity: 0;
   width: 100%;
@@ -430,12 +430,12 @@ h1 {
   transition: opacity 0.5s;
 }
 
-/* line 17, L:/Implementation Project/Website Design Draft/scss/modules/_imgPreview.scss */
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_imgPreview.scss */
 .ThumnailCover:hover {
   opacity: 1;
 }
 
-/* line 22, L:/Implementation Project/Website Design Draft/scss/modules/_imgPreview.scss */
+/* line 22, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_imgPreview.scss */
 .DeleteNewImg, .DeleteOldImg {
   position: relative;
   float: right;
@@ -446,12 +446,12 @@ h1 {
   font-size: 25px;
 }
 
-/* line 32, L:/Implementation Project/Website Design Draft/scss/modules/_imgPreview.scss */
+/* line 32, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_imgPreview.scss */
 .DeleteNewImg:hover, .DeleteOldImg:hover {
   color: white;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/_magnifier.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_magnifier.scss */
 figure.zoom {
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -460,25 +460,25 @@ figure.zoom {
   cursor: zoom-in;
 }
 
-/* line 7, L:/Implementation Project/Website Design Draft/scss/modules/_magnifier.scss */
+/* line 7, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_magnifier.scss */
 figure.zoom div {
   transition: opacity .5s;
   display: block;
 }
 
-/* line 8, L:/Implementation Project/Website Design Draft/scss/modules/_magnifier.scss */
+/* line 8, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_magnifier.scss */
 figure.zoom div:hover {
   opacity: 0;
 }
 
-/* line 2, L:/Implementation Project/Website Design Draft/scss/modules/_productSlider.scss */
+/* line 2, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_productSlider.scss */
 #myCarousel .list-inline {
   white-space: nowrap;
   overflow: auto;
   overflow-y: hidden;
 }
 
-/* line 7, L:/Implementation Project/Website Design Draft/scss/modules/_productSlider.scss */
+/* line 7, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_productSlider.scss */
 #myCarousel .carousel-indicators {
   position: static;
   left: initial;
@@ -486,19 +486,19 @@ figure.zoom div:hover {
   margin-left: initial;
 }
 
-/* line 12, L:/Implementation Project/Website Design Draft/scss/modules/_productSlider.scss */
+/* line 12, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_productSlider.scss */
 #myCarousel .carousel-indicators > li {
   width: initial;
   height: initial;
   text-indent: initial;
 }
 
-/* line 16, L:/Implementation Project/Website Design Draft/scss/modules/_productSlider.scss */
+/* line 16, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_productSlider.scss */
 #myCarousel .carousel-indicators > li.active img {
   opacity: 0.7;
 }
 
-/* line 23, L:/Implementation Project/Website Design Draft/scss/modules/_productSlider.scss */
+/* line 23, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_productSlider.scss */
 .sliderSelector {
   width: 100px;
   height: 100px;
@@ -514,7 +514,7 @@ figure.zoom div:hover {
   margin-right: .25rem;
 }
 
-/* line 38, L:/Implementation Project/Website Design Draft/scss/modules/_productSlider.scss */
+/* line 38, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_productSlider.scss */
 .sliderContainer {
   width: 1200px;
   height: 480px;
@@ -524,12 +524,12 @@ figure.zoom div:hover {
   min-height: 100%;
 }
 
-/* line 47, L:/Implementation Project/Website Design Draft/scss/modules/_productSlider.scss */
+/* line 47, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_productSlider.scss */
 figure.sliderContainer {
   position: absolute;
 }
 
-/* line 51, L:/Implementation Project/Website Design Draft/scss/modules/_productSlider.scss */
+/* line 51, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_productSlider.scss */
 .sliderImage {
   position: absolute;
   left: -100%;
@@ -541,18 +541,18 @@ figure.sliderContainer {
   max-width: 100%;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 fieldset, label {
   margin: 0;
   padding: 0;
 }
 
-/* line 6, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 6, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 body {
   margin: 20px;
 }
 
-/* line 10, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 10, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 #rateYo {
   padding-right: 10px;
   padding-top: 10px;
@@ -560,7 +560,7 @@ body {
   float: left;
 }
 
-/* line 17, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 #rateYo2 {
   margin: auto;
   padding-right: 10px;
@@ -570,18 +570,18 @@ body {
 }
 
 /****** Style Star Rating Widget *****/
-/* line 27, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 27, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 .rating {
   border: none;
   float: left;
 }
 
-/* line 31, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 31, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 .rating > input {
   display: none;
 }
 
-/* line 34, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 34, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 .rating > label:before {
   margin: 5px;
   font-size: 2em;
@@ -590,63 +590,63 @@ body {
   content: "\f005";
 }
 
-/* line 41, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 41, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 .rating > .half:before {
   content: "\f089";
   position: absolute;
 }
 
-/* line 45, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 45, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 .rating > label {
   color: #ddd;
   float: right;
 }
 
-/* line 49, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 49, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 .rating > input:checked ~ label {
   color: #FFD700;
 }
 
-/* line 53, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 53, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 .rating:not(:checked) > label:hover {
   color: #FFD700;
 }
 
-/* line 55, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 55, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 .rating:not(:checked) > label:hover ~ label {
   color: #FFD700;
 }
 
-/* line 61, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 61, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 .rating > input:checked + label:hover, .rating > input:checked ~ label:hover {
   color: #FFED85;
 }
 
-/* line 65, L:/Implementation Project/Website Design Draft/scss/modules/_ratingStar.scss */
+/* line 65, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_ratingStar.scss */
 .rating > label:hover ~ input:checked ~ label, .rating > input:checked ~ label:hover ~ label {
   color: #FFED85;
 }
 
 /***** CSS Magic to Highlight Stars on Hover *****/
 /* hover previous stars in list */
-/* line 1, L:/Implementation Project/Website Design Draft/scss/modules/_textEditor.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_textEditor.scss */
 #TextEditor {
   width: 500px;
   height: 500px;
   padding: 5px;
 }
 
-/* line 8, L:/Implementation Project/Website Design Draft/scss/modules/_textEditor.scss */
+/* line 8, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_textEditor.scss */
 #TextEditor * {
   margin: 0px;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .card {
   margin-bottom: 1em;
 }
 
-/* line 5, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .card-divider {
   height: 0;
   margin: 0 0;
@@ -655,7 +655,7 @@ body {
 }
 
 /* Sidebar */
-/* line 14, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 14, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .sidebarContainer {
   position: fixed !important;
   height: 100%;
@@ -663,7 +663,7 @@ body {
   z-index: -1;
 }
 
-/* line 21, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 21, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar {
   padding: 120px 0 20px 0;
   overflow-x: hidden;
@@ -673,49 +673,49 @@ body {
   padding-right: 0;
 }
 
-/* line 28, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 28, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav {
   margin-bottom: 20px;
 }
 
-/* line 31, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 31, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav-item {
   width: 100%;
 }
 
-/* line 33, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 33, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav-item + .nav-item {
   margin-left: 0;
 }
 
-/* line 37, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 37, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav-link {
   border-radius: 0;
   color: #ffffff;
 }
 
 /* Notification Detail Panel */
-/* line 45, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 45, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notificationDetail-panel-content {
   padding-right: 1.25rem;
 }
 
 /*Notification Panel */
-/* line 51, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 51, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content {
   min-height: 400px;
   max-height: 400px;
   overflow-x: hidden;
 }
 
-/* line 52, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 52, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content > ul > li {
   padding-top: 5px;
   padding-bottom: 5px;
   cursor: pointer;
 }
 
-/* line 53, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 53, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content > ul > li > .media-body > p {
   overflow: hidden;
   display: -webkit-box;
@@ -723,39 +723,39 @@ body {
   -webkit-box-orient: vertical;
 }
 
-/* line 62, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 62, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content > ul > li:hover {
   background: #cacaca;
 }
 
-/* line 71, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 71, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notificationDetail-panel-content {
   min-height: 400px;
   max-height: 400px;
   overflow-x: hidden;
 }
 
-/* line 77, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 77, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content::-webkit-scrollbar-track, .notificationDetail-panel-content::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   background-color: #F5F5F5;
 }
 
-/* line 83, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 83, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content::-webkit-scrollbar, .notificationDetail-panel-content::-webkit-scrollbar {
   width: 12px;
   background-color: #F5F5F5;
 }
 
-/* line 88, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 88, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content::-webkit-scrollbar-thumb, .notificationDetail-panel-content::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #777777;
 }
 
-/* line 94, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 94, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notificationPic {
   width: 80px;
   height: 80px;
@@ -768,7 +768,7 @@ body {
   background: white;
 }
 
-/* line 106, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 106, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notificationDetail-panel-Pic {
   width: 150px;
   height: 150px;
@@ -781,23 +781,23 @@ body {
   background: white;
 }
 
-/* line 118, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+/* line 118, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-selected {
   background: #cacaca;
 }
 
 @media screen and (max-height: 450px) {
-  /* line 123, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+  /* line 123, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
   .sidenav {
     padding-top: 15px;
   }
-  /* line 125, L:/Implementation Project/Website Design Draft/scss/pages/_dashboard.scss */
+  /* line 125, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
   .sidenav a {
     font-size: 18px;
   }
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/pages/_item.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_item.scss */
 .shortimg {
   height: 180px;
   background-size: cover;
@@ -805,24 +805,24 @@ body {
   background-repeat: no-repeat;
 }
 
-/* line 8, L:/Implementation Project/Website Design Draft/scss/pages/_item.scss */
+/* line 8, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_item.scss */
 #BtnWishList, #additem {
   cursor: pointer;
   color: white;
 }
 
-/* line 13, L:/Implementation Project/Website Design Draft/scss/pages/_item.scss */
+/* line 13, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_item.scss */
 .blocked {
   border: 2px solid red;
 }
 
-/* line 17, L:/Implementation Project/Website Design Draft/scss/pages/_item.scss */
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_item.scss */
 .curPage {
   font-weight: bold;
   font-size: 16px;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 #loginregisterblur {
   background-image: url("../img/image1.jpg");
   background-repeat: no-repeat;
@@ -839,7 +839,7 @@ body {
   z-index: -1;
 }
 
-/* line 17, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistera {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.8);
@@ -847,18 +847,18 @@ body {
   transition: .5s ease;
 }
 
-/* line 22, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 22, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistera:hover {
   color: #E93838;
 }
 
-/* line 27, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 27, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterlogo {
   padding: 30px;
   text-align: center;
 }
 
-/* line 32, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 32, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterform {
   background: rgba(255, 255, 255, 0.9);
   padding: 20px;
@@ -869,27 +869,27 @@ body {
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
 }
 
-/* line 42, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 42, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .singclick.active a {
   background: #E93838;
   color: #ffffff;
 }
 
-/* line 47, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 47, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertab-group {
   list-style: none;
   padding: 0;
   margin: 0 0 40px 0;
 }
 
-/* line 51, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 51, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertab-group:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 56, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 56, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertab-group li a {
   display: block;
   text-decoration: none;
@@ -906,24 +906,24 @@ body {
   border-radius: 1px;
 }
 
-/* line 70, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 70, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertab-group li a:hover {
   background: #E93838;
   color: #ffffff;
 }
 
-/* line 75, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 75, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertab-group .active a {
   background: #F34C4C;
   color: #ffffff;
 }
 
-/* line 81, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 81, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertab-content > div:last-child {
   display: none;
 }
 
-/* line 85, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 85, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterh1 {
   text-align: center;
   color: transparent;
@@ -931,7 +931,7 @@ body {
   margin-top: -23px;
 }
 
-/* line 92, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 92, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterlabel {
   position: absolute;
   -webkit-transform: translateY(6px);
@@ -945,13 +945,13 @@ body {
   font-size: 22px;
 }
 
-/* line 103, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 103, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterlabel .req {
   margin: 2px;
   color: #E93838;
 }
 
-/* line 107, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 107, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterlabel.active {
   -webkit-transform: translateY(50px);
   transform: translateY(50px);
@@ -959,17 +959,17 @@ body {
   font-size: 14px;
 }
 
-/* line 112, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 112, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterlabel.active .req {
   opacity: 0;
 }
 
-/* line 116, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 116, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterlabel.highlight {
   color: #000000;
 }
 
-/* line 121, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 121, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterinput {
   font-size: 22px;
   display: block;
@@ -985,50 +985,50 @@ body {
   transition: border-color .25s ease, box-shadow .25s ease;
 }
 
-/* line 134, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 134, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterinput:focus {
   outline: 0;
   border-color: #1ab188;
 }
 
-/* line 140, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 140, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertextarea {
   border: 2px solid #a0b3b0;
   resize: vertical;
 }
 
-/* line 141, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 141, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertextarea:focus {
   outline: 0;
   border-color: #1ab188;
 }
 
-/* line 149, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 149, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterfield-wrap {
   position: relative;
   margin-bottom: 40px;
 }
 
-/* line 155, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 155, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertop-row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 160, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 160, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertop-row > div {
   float: left;
   width: 48%;
   margin-right: 4%;
 }
 
-/* line 164, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 164, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregistertop-row > div:last-child {
   margin: 0;
 }
 
-/* line 170, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 170, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterbutton {
   border: 0;
   outline: none;
@@ -1045,24 +1045,24 @@ body {
   -webkit-appearance: none;
 }
 
-/* line 184, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 184, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterbutton:hover, .loginregisterbutton:focus {
   background: #E93838;
 }
 
-/* line 189, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 189, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterbutton-block {
   display: block;
   width: 100%;
 }
 
-/* line 194, L:/Implementation Project/Website Design Draft/scss/pages/_loginregister.scss */
+/* line 194, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_loginregister.scss */
 .loginregisterforgot {
   margin-top: -20px;
   text-align: right;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/pages/_receipt.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_receipt.scss */
 .shoplogo {
   height: 100px;
   width: 100px;
@@ -1071,7 +1071,7 @@ body {
   float: right;
 }
 
-/* line 9, L:/Implementation Project/Website Design Draft/scss/pages/_receipt.scss */
+/* line 9, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_receipt.scss */
 .receiptBorder {
   display: block;
   border: none;
@@ -1079,38 +1079,38 @@ body {
   background-color: #000;
 }
 
-/* line 16, L:/Implementation Project/Website Design Draft/scss/pages/_receipt.scss */
+/* line 16, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_receipt.scss */
 .receiptHeading > div > h5 {
   font-size: 1em;
   font-weight: bold;
 }
 
-/* line 21, L:/Implementation Project/Website Design Draft/scss/pages/_receipt.scss */
+/* line 21, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_receipt.scss */
 .invoiceTotal h5 {
   font-weight: 700;
 }
 
-/* line 25, L:/Implementation Project/Website Design Draft/scss/pages/_receipt.scss */
+/* line 25, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_receipt.scss */
 .itemDetail p {
   margin-bottom: 0;
 }
 
 @media print {
-  /* line 30, L:/Implementation Project/Website Design Draft/scss/pages/_receipt.scss */
+  /* line 30, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_receipt.scss */
   body {
     visibility: hidden !important;
   }
-  /* line 33, L:/Implementation Project/Website Design Draft/scss/pages/_receipt.scss */
+  /* line 33, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_receipt.scss */
   footer, nav {
     display: none !important;
   }
-  /* line 36, L:/Implementation Project/Website Design Draft/scss/pages/_receipt.scss */
+  /* line 36, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_receipt.scss */
   .receipt {
     visibility: visible !important;
   }
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/pages/_shoppingCart.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_shoppingCart.scss */
 .no-item {
   position: relative;
   min-height: 50vh;
@@ -1120,12 +1120,12 @@ body {
   background-repeat: no-repeat;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .card {
   margin-bottom: 1em;
 }
 
-/* line 5, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .card-divider {
   height: 0;
   margin: .5rem 0;
@@ -1133,7 +1133,7 @@ body {
   border-top: 1px solid #e9ecef;
 }
 
-/* line 12, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 12, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .profileEditbtn, .profileSavebtn {
   text-decoration: none;
   margin-left: auto;
@@ -1158,13 +1158,13 @@ body {
   cursor: pointer;
 }
 
-/* line 36, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 36, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .NG {
   cursor: default;
   background-color: #dddddd;
 }
 
-/* line 42, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 42, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .profileEditbtn:hover {
   color: #fff;
   background-color: #0069d9;
@@ -1172,13 +1172,13 @@ body {
   text-decoration: none;
 }
 
-/* line 48, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 48, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .profileEditbtn:focus {
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
   text-decoration: none;
 }
 
-/* line 54, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 54, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .profilePic {
   height: 200px;
   width: 200px;
@@ -1193,41 +1193,41 @@ body {
   overflow: hidden;
 }
 
-/* line 68, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 68, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .sideprofile {
   text-align: center;
 }
 
-/* line 70, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 70, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .sideprofile > .userDetails > div > div {
   text-align: right !important;
 }
 
-/* line 73, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 73, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .sideprofile .row {
   margin-bottom: 1rem;
 }
 
-/* line 76, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 76, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .sideprofile p, .sideprofile label {
   padding: 0;
   margin-bottom: 0 !important;
 }
 
-/* line 80, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 80, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .sideprofile li:hover {
   background-color: #222;
   color: #fff;
 }
 
-/* line 86, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 86, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content {
   min-height: 400px;
   max-height: 400px;
   overflow-x: hidden;
 }
 
-/* line 87, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 87, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content > ul > li > .media-body > p {
   overflow: hidden;
   display: -webkit-box;
@@ -1235,40 +1235,40 @@ body {
   -webkit-box-orient: vertical;
 }
 
-/* line 92, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 92, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content > ul > li > .media-body > p:hover {
   overflow: visible;
   display: block;
 }
 
-/* line 102, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 102, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .activity-log-content {
   min-height: 400px;
   max-height: 400px;
   overflow-x: hidden;
 }
 
-/* line 108, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 108, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content::-webkit-scrollbar-track, .activity-log-content::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   background-color: #F5F5F5;
 }
 
-/* line 114, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 114, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content::-webkit-scrollbar, .activity-log-content::-webkit-scrollbar {
   width: 12px;
   background-color: #F5F5F5;
 }
 
-/* line 119, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 119, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content::-webkit-scrollbar-thumb, .activity-log-content::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #777777;
 }
 
-/* line 125, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 125, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-Pic {
   width: 100px;
   height: 100px;
@@ -1280,13 +1280,13 @@ body {
   margin-right: .25rem;
 }
 
-/* line 136, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 136, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .reported-notice {
   background-color: #dc3545 !important;
   color: #fff !important;
 }
 
-/* line 141, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 141, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .comment-pic {
   width: 80px;
   height: 80px;
@@ -1296,7 +1296,7 @@ body {
   border-radius: 40px;
 }
 
-/* line 150, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 150, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .EditSaveProfileImage {
   display: inline-block;
   opacity: 0;
@@ -1310,7 +1310,7 @@ body {
   cursor: pointer;
 }
 
-/* line 163, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 163, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .LoadingProfileImage {
   display: inline-block;
   opacity: 1;
@@ -1324,13 +1324,13 @@ body {
   cursor: pointer;
 }
 
-/* line 176, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 176, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .EditSaveProfileImage:hover {
   opacity: 1;
   transition: opacity 0.5s;
 }
 
-/* line 181, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 181, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .EditSaveProfileImageI {
   position: absolute;
   top: 70px;
@@ -1338,23 +1338,23 @@ body {
   color: white;
 }
 
-/* line 188, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 188, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .ShopClosed {
   text-align: center;
 }
 
-/* line 191, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 191, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .ShopClosed > h1 {
   margin-bottom: 20px;
 }
 
-/* line 194, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 194, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .ShopClosed > img {
   height: 400px;
   width: 400px;
 }
 
-/* line 201, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 201, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .OpenANewShop {
   text-decoration: none;
   padding: 10px;
@@ -1365,232 +1365,115 @@ body {
   margin: 10px;
 }
 
-/* line 211, L:/Implementation Project/Website Design Draft/scss/pages/_userProfile.scss */
+/* line 211, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .EditProfileDetail {
   width: 100%;
   height: 150px;
   resize: vertical;
 }
 
-/* The Modal (background) */
-/* line 3, L:/Implementation Project/Website Design Draft/scss/pages/_userState.scss */
-.modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  padding-top: 100px;
-  /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: black;
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
-}
-
-/* Modal Content */
-/* line 28, L:/Implementation Project/Website Design Draft/scss/pages/_userState.scss */
-.modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  border: 1px solid #888;
-  width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
-  animation-name: animatetop;
-  animation-duration: 0.4s;
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
-}
-
-@keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
-}
-
-/* The Close Button */
-/* line 71, L:/Implementation Project/Website Design Draft/scss/pages/_userState.scss */
-.close {
-  color: white;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-/* line 76, L:/Implementation Project/Website Design Draft/scss/pages/_userState.scss */
-.close:hover, .close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* line 83, L:/Implementation Project/Website Design Draft/scss/pages/_userState.scss */
-.modal-header {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
-}
-
-/* line 89, L:/Implementation Project/Website Design Draft/scss/pages/_userState.scss */
-.modal-body {
-  padding: 2px 16px;
-}
-
-/* line 93, L:/Implementation Project/Website Design Draft/scss/pages/_userState.scss */
-.modal-footer {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
-}
-
-/* The Modal (background) */
-/* line 3, L:/Implementation Project/Website Design Draft/scss/pages/_admin.scss */
-.modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  padding-top: 100px;
-  /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: black;
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
-}
-
-/* Modal Content */
-/* line 28, L:/Implementation Project/Website Design Draft/scss/pages/_admin.scss */
-.modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  border: 1px solid #888;
-  width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
-  animation-name: animatetop;
-  animation-duration: 0.4s;
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
-}
-
-@keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
-}
-
-/* The Close Button */
-/* line 71, L:/Implementation Project/Website Design Draft/scss/pages/_admin.scss */
-.close {
-  color: white;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-/* line 76, L:/Implementation Project/Website Design Draft/scss/pages/_admin.scss */
-.close:hover, .close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* line 83, L:/Implementation Project/Website Design Draft/scss/pages/_admin.scss */
-.modal-header {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
-}
-
-/* line 89, L:/Implementation Project/Website Design Draft/scss/pages/_admin.scss */
-.modal-body {
-  padding: 2px 16px;
-}
-
-/* line 93, L:/Implementation Project/Website Design Draft/scss/pages/_admin.scss */
-.modal-footer {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
-}
-
-/* line 1, L:/Implementation Project/Website Design Draft/scss/pages/_purchaseHistory.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
 .dropdown-item {
   width: auto !important;
+}
+
+/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.orderPlaced, .inProgress, .shipped, .delived, .completed {
+  position: absolute;
+  margin-top: -10px;
+  z-index: 1;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+}
+
+/* line 12, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.orderPlaced i, .inProgress i, .shipped i, .delived i, .completed i {
+  margin-top: 5px;
+  color: #FFFFFF;
+}
+
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.orderPlaced {
+  left: 2%;
+}
+
+/* line 20, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.inProgress {
+  left: 22%;
+}
+
+/* line 23, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.shipped {
+  left: 44%;
+}
+
+/* line 26, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.delived {
+  left: 66%;
+}
+
+/* line 29, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.completed {
+  left: 90%;
+}
+
+/* line 33, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.no-color {
+  background-color: inherit;
+}
+
+/* line 37, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel {
+  margin-bottom: 10px;
+}
+
+/* line 39, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel .orderPlacedLabel {
+  position: absolute;
+  left: 0%;
+}
+
+/* line 43, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel .inProgressLabel {
+  position: absolute;
+  left: 20%;
+}
+
+/* line 47, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel .shippedLabel {
+  position: absolute;
+  left: 44%;
+}
+
+/* line 51, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel .delivedLabel {
+  position: absolute;
+  left: 66%;
+}
+
+/* line 55, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.progressbarLabel .completedLabel {
+  position: absolute;
+  left: 85%;
 }
 
 /*
  * bootstrap-tagsinput v0.8.0
  * 
  */
-/* line 7, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput-typeahead.scss */
+/* line 7, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput-typeahead.scss */
 .twitter-typeahead .tt-query {
   margin-bottom: 0;
 }
 
-/* line 10, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput-typeahead.scss */
+/* line 10, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput-typeahead.scss */
 .twitter-typeahead .tt-hint {
   margin-bottom: 0;
   display: none;
 }
 
-/* line 16, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput-typeahead.scss */
+/* line 16, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput-typeahead.scss */
 .tt-menu {
   position: absolute;
   top: 100%;
@@ -1613,7 +1496,7 @@ body {
   cursor: pointer;
 }
 
-/* line 38, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput-typeahead.scss */
+/* line 38, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput-typeahead.scss */
 .tt-suggestion {
   display: block;
   padding: 3px 20px;
@@ -1624,7 +1507,7 @@ body {
   white-space: nowrap;
 }
 
-/* line 46, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput-typeahead.scss */
+/* line 46, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput-typeahead.scss */
 .tt-suggestion:hover, .tt-suggestion:focus {
   color: #ffffff;
   text-decoration: none;
@@ -1632,7 +1515,7 @@ body {
   background-color: #428bca;
 }
 
-/* line 1, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
 .bootstrap-tagsinput {
   background-color: #fff;
   border: 1px solid #ccc;
@@ -1647,7 +1530,7 @@ body {
   cursor: text;
 }
 
-/* line 13, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
+/* line 13, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
 .bootstrap-tagsinput input {
   border: none;
   box-shadow: none;
@@ -1659,47 +1542,47 @@ body {
   max-width: inherit;
 }
 
-/* line 24, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
+/* line 24, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
 .bootstrap-tagsinput.form-control input::-moz-placeholder {
   color: #777;
   opacity: 1;
 }
 
-/* line 28, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
+/* line 28, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
 .bootstrap-tagsinput.form-control input:-ms-input-placeholder, .bootstrap-tagsinput.form-control input::-webkit-input-placeholder {
   color: #777;
 }
 
-/* line 32, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
+/* line 32, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
 .bootstrap-tagsinput input:focus {
   border: none;
   box-shadow: none;
 }
 
-/* line 36, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
+/* line 36, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
 .bootstrap-tagsinput .tag {
   margin-right: 2px;
   color: white;
 }
 
-/* line 39, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
+/* line 39, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
 .bootstrap-tagsinput .tag [data-role="remove"] {
   margin-left: 8px;
   cursor: pointer;
 }
 
-/* line 42, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
+/* line 42, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
 .bootstrap-tagsinput .tag [data-role="remove"]:after {
   content: "x";
   padding: 0px 2px;
 }
 
-/* line 46, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
+/* line 46, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
 .bootstrap-tagsinput .tag [data-role="remove"]:hover {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-/* line 48, L:/Implementation Project/Website Design Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
+/* line 48, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/bootstrap-tagsinput/_bootstrap-tagsinput.scss */
 .bootstrap-tagsinput .tag [data-role="remove"]:hover:active {
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
