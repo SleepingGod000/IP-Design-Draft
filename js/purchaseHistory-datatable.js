@@ -1,7 +1,6 @@
 // Call the dataTables jQuery plugin
-
 $(document).ready(function() {
-  $('#purchasehistory-datatable').DataTable({
+  $('#purchaseHistory-datatable').DataTable({
 	  responsive: true
   });
 });
