@@ -1372,12 +1372,12 @@ body {
   resize: vertical;
 }
 
-/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .dropdown-item {
   width: auto !important;
 }
 
-/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .orderPlaced, .inProgress, .shipped, .delived, .completed {
   position: absolute;
   margin-top: -10px;
@@ -1387,75 +1387,78 @@ body {
   border-radius: 25px;
 }
 
-/* line 12, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 12, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .orderPlaced i, .inProgress i, .shipped i, .delived i, .completed i {
   margin-top: 5px;
   color: #FFFFFF;
 }
 
-/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .orderPlaced {
-  left: 2%;
+  left: 1%;
 }
 
-/* line 20, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 20, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .inProgress {
-  left: 22%;
+  left: 23.25%;
 }
 
-/* line 23, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 23, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .shipped {
-  left: 44%;
+  left: 46.5%;
 }
 
-/* line 26, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 26, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .delived {
-  left: 66%;
+  left: 69.75%;
 }
 
-/* line 29, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 29, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .completed {
-  left: 90%;
+  left: 93%;
 }
 
-/* line 33, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 33, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .no-color {
   background-color: inherit;
 }
 
-/* line 37, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
-.progressbarLabel {
-  margin-bottom: 10px;
+/* line 37, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.progressbarLabel, .orderPlacedLabel, .inProgressLabel, .shippedLabel, .delivedLabel, .completedLabel {
+  position: absolute;
+  top: 10px;
 }
 
-/* line 39, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
-.progressbarLabel .orderPlacedLabel {
-  position: absolute;
-  left: 0%;
+/* line 41, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.orderPlacedLabel {
+  left: 1%;
 }
 
-/* line 43, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
-.progressbarLabel .inProgressLabel {
-  position: absolute;
-  left: 20%;
+/* line 45, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.inProgressLabel {
+  left: 23.25%;
 }
 
-/* line 47, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
-.progressbarLabel .shippedLabel {
-  position: absolute;
-  left: 44%;
+/* line 49, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.shippedLabel {
+  left: 46.5%;
 }
 
-/* line 51, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
-.progressbarLabel .delivedLabel {
-  position: absolute;
-  left: 66%;
+/* line 53, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.delivedLabel {
+  left: 69.75%;
 }
 
-/* line 55, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
-.progressbarLabel .completedLabel {
-  position: absolute;
-  left: 85%;
+/* line 57, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.completedLabel {
+  left: 89%;
+}
+
+@media (min-width: 576px) {
+  /* line 65, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+  .modal-dialog {
+    max-width: 750px !important;
+  }
 }
 
 /*
