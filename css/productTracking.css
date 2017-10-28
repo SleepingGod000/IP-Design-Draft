@@ -26,22 +26,22 @@
 
 /* line 20, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .inProgress {
-  left: 23.25%;
+  left: 23.5%;
 }
 
 /* line 23, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .shipped {
-  left: 46.5%;
+  left: 47%;
 }
 
 /* line 26, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .delived {
-  left: 69.75%;
+  left: 70.5%;
 }
 
 /* line 29, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .completed {
-  left: 93%;
+  left: 94%;
 }
 
 /* line 33, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
@@ -62,29 +62,22 @@
 
 /* line 45, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .inProgressLabel {
-  left: 23.25%;
+  left: 23.5%;
 }
 
 /* line 49, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .shippedLabel {
-  left: 46.5%;
+  left: 47%;
 }
 
 /* line 53, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .delivedLabel {
-  left: 69.75%;
+  left: 70.5%;
 }
 
 /* line 57, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .completedLabel {
-  left: 89%;
-}
-
-@media (min-width: 576px) {
-  /* line 65, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
-  .modal-dialog {
-    max-width: 750px !important;
-  }
+  left: 90%;
 }
 
 /*# sourceMappingURL=../css/productTracking.map */

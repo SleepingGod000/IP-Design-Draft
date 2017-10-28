@@ -58,11 +58,3 @@
 	@extend .progressbarLabel;
 	left:$completed - 4;
 }
-
-
-@media (min-width: 576px)
-{
-	.modal-dialog {
-		max-width: 750px!important;
-	}
-}

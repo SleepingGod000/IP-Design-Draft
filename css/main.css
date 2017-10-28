@@ -641,21 +641,21 @@ body {
   margin: 0px;
 }
 
-/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
 .card {
   margin-bottom: 1em;
 }
 
-/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
 .card-divider {
   height: 0;
-  margin: 0 0;
+  margin: .5rem 0;
   overflow: hidden;
   border-top: 1px solid #e9ecef;
 }
 
 /* Sidebar */
-/* line 14, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 3, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .sidebarContainer {
   position: fixed !important;
   height: 100%;
@@ -663,7 +663,7 @@ body {
   z-index: -1;
 }
 
-/* line 21, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 10, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar {
   padding: 120px 0 20px 0;
   overflow-x: hidden;
@@ -673,49 +673,49 @@ body {
   padding-right: 0;
 }
 
-/* line 28, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav {
   margin-bottom: 20px;
 }
 
-/* line 31, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 20, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav-item {
   width: 100%;
 }
 
-/* line 33, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 22, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav-item + .nav-item {
   margin-left: 0;
 }
 
-/* line 37, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 26, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav-link {
   border-radius: 0;
   color: #ffffff;
 }
 
 /* Notification Detail Panel */
-/* line 45, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 34, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notificationDetail-panel-content {
   padding-right: 1.25rem;
 }
 
 /*Notification Panel */
-/* line 51, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 40, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content {
   min-height: 400px;
   max-height: 400px;
   overflow-x: hidden;
 }
 
-/* line 52, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 41, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content > ul > li {
   padding-top: 5px;
   padding-bottom: 5px;
   cursor: pointer;
 }
 
-/* line 53, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 42, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content > ul > li > .media-body > p {
   overflow: hidden;
   display: -webkit-box;
@@ -723,39 +723,39 @@ body {
   -webkit-box-orient: vertical;
 }
 
-/* line 62, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 51, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content > ul > li:hover {
   background: #cacaca;
 }
 
-/* line 71, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 60, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notificationDetail-panel-content {
   min-height: 400px;
   max-height: 400px;
   overflow-x: hidden;
 }
 
-/* line 77, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 66, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content::-webkit-scrollbar-track, .notificationDetail-panel-content::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   background-color: #F5F5F5;
 }
 
-/* line 83, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 72, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content::-webkit-scrollbar, .notificationDetail-panel-content::-webkit-scrollbar {
   width: 12px;
   background-color: #F5F5F5;
 }
 
-/* line 88, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 77, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-panel-content::-webkit-scrollbar-thumb, .notificationDetail-panel-content::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #777777;
 }
 
-/* line 94, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 83, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notificationPic {
   width: 80px;
   height: 80px;
@@ -768,7 +768,7 @@ body {
   background: white;
 }
 
-/* line 106, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 95, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notificationDetail-panel-Pic {
   width: 150px;
   height: 150px;
@@ -781,17 +781,17 @@ body {
   background: white;
 }
 
-/* line 118, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+/* line 107, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notification-selected {
   background: #cacaca;
 }
 
 @media screen and (max-height: 450px) {
-  /* line 123, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+  /* line 112, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
   .sidenav {
     padding-top: 15px;
   }
-  /* line 125, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+  /* line 114, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
   .sidenav a {
     font-size: 18px;
   }
@@ -1121,19 +1121,6 @@ body {
 }
 
 /* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
-.card {
-  margin-bottom: 1em;
-}
-
-/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
-.card-divider {
-  height: 0;
-  margin: .5rem 0;
-  overflow: hidden;
-  border-top: 1px solid #e9ecef;
-}
-
-/* line 12, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .profileEditbtn, .profileSavebtn {
   text-decoration: none;
   margin-left: auto;
@@ -1158,13 +1145,13 @@ body {
   cursor: pointer;
 }
 
-/* line 36, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 25, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .NG {
   cursor: default;
   background-color: #dddddd;
 }
 
-/* line 42, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 31, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .profileEditbtn:hover {
   color: #fff;
   background-color: #0069d9;
@@ -1172,13 +1159,13 @@ body {
   text-decoration: none;
 }
 
-/* line 48, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 37, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .profileEditbtn:focus {
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
   text-decoration: none;
 }
 
-/* line 54, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 43, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .profilePic {
   height: 200px;
   width: 200px;
@@ -1193,41 +1180,41 @@ body {
   overflow: hidden;
 }
 
-/* line 68, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 57, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .sideprofile {
   text-align: center;
 }
 
-/* line 70, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 59, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .sideprofile > .userDetails > div > div {
   text-align: right !important;
 }
 
-/* line 73, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 62, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .sideprofile .row {
   margin-bottom: 1rem;
 }
 
-/* line 76, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 65, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .sideprofile p, .sideprofile label {
   padding: 0;
   margin-bottom: 0 !important;
 }
 
-/* line 80, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 69, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .sideprofile li:hover {
   background-color: #222;
   color: #fff;
 }
 
-/* line 86, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 75, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content {
   min-height: 400px;
   max-height: 400px;
   overflow-x: hidden;
 }
 
-/* line 87, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 76, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content > ul > li > .media-body > p {
   overflow: hidden;
   display: -webkit-box;
@@ -1235,40 +1222,40 @@ body {
   -webkit-box-orient: vertical;
 }
 
-/* line 92, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 81, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content > ul > li > .media-body > p:hover {
   overflow: visible;
   display: block;
 }
 
-/* line 102, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 91, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .activity-log-content {
   min-height: 400px;
   max-height: 400px;
   overflow-x: hidden;
 }
 
-/* line 108, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 97, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content::-webkit-scrollbar-track, .activity-log-content::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   background-color: #F5F5F5;
 }
 
-/* line 114, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 103, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content::-webkit-scrollbar, .activity-log-content::-webkit-scrollbar {
   width: 12px;
   background-color: #F5F5F5;
 }
 
-/* line 119, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 108, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-content::-webkit-scrollbar-thumb, .activity-log-content::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #777777;
 }
 
-/* line 125, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 114, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .notification-panel-Pic {
   width: 100px;
   height: 100px;
@@ -1280,13 +1267,13 @@ body {
   margin-right: .25rem;
 }
 
-/* line 136, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 125, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .reported-notice {
   background-color: #dc3545 !important;
   color: #fff !important;
 }
 
-/* line 141, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 130, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .comment-pic {
   width: 80px;
   height: 80px;
@@ -1296,7 +1283,7 @@ body {
   border-radius: 40px;
 }
 
-/* line 150, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 139, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .EditSaveProfileImage {
   display: inline-block;
   opacity: 0;
@@ -1310,7 +1297,7 @@ body {
   cursor: pointer;
 }
 
-/* line 163, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 152, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .LoadingProfileImage {
   display: inline-block;
   opacity: 1;
@@ -1324,13 +1311,13 @@ body {
   cursor: pointer;
 }
 
-/* line 176, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 165, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .EditSaveProfileImage:hover {
   opacity: 1;
   transition: opacity 0.5s;
 }
 
-/* line 181, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 170, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .EditSaveProfileImageI {
   position: absolute;
   top: 70px;
@@ -1338,23 +1325,23 @@ body {
   color: white;
 }
 
-/* line 188, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 177, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .ShopClosed {
   text-align: center;
 }
 
-/* line 191, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 180, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .ShopClosed > h1 {
   margin-bottom: 20px;
 }
 
-/* line 194, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 183, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .ShopClosed > img {
   height: 400px;
   width: 400px;
 }
 
-/* line 201, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 190, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .OpenANewShop {
   text-decoration: none;
   padding: 10px;
@@ -1365,7 +1352,7 @@ body {
   margin: 10px;
 }
 
-/* line 211, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
+/* line 200, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_userProfile.scss */
 .EditProfileDetail {
   width: 100%;
   height: 150px;
@@ -1400,22 +1387,22 @@ body {
 
 /* line 20, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .inProgress {
-  left: 23.25%;
+  left: 23.5%;
 }
 
 /* line 23, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .shipped {
-  left: 46.5%;
+  left: 47%;
 }
 
 /* line 26, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .delived {
-  left: 69.75%;
+  left: 70.5%;
 }
 
 /* line 29, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .completed {
-  left: 93%;
+  left: 94%;
 }
 
 /* line 33, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
@@ -1436,29 +1423,56 @@ body {
 
 /* line 45, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .inProgressLabel {
-  left: 23.25%;
+  left: 23.5%;
 }
 
 /* line 49, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .shippedLabel {
-  left: 46.5%;
+  left: 47%;
 }
 
 /* line 53, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .delivedLabel {
-  left: 69.75%;
+  left: 70.5%;
 }
 
 /* line 57, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
 .completedLabel {
-  left: 89%;
+  left: 90%;
 }
 
-@media (min-width: 576px) {
-  /* line 65, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
-  .modal-dialog {
-    max-width: 750px !important;
-  }
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.receiptItemList {
+  white-space: nowrap;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.receiptItemList .receiptItem {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 5px solid #ddd;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded border */
+  margin-left: .25rem;
+  margin-right: .25rem;
+}
+
+/* line 19, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+.receiptItemINModal {
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
 }
 
 /*
