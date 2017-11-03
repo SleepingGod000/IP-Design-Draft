@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "../scss/purchaseHistory.css",
+	"sources": [
+		"../scss/purchaseHistory.scss",
+		"../scss/modules/_customCard.scss",
+		"../scss/pages/_purchaseHistory.scss"
+	],
+	"sourcesContent": [
+		"@import 'modules/_customCard.scss';\n\n@import 'pages/_purchaseHistory.scss';",
+		".card {\n  margin-bottom: 1em;\n}\n\n.card-divider {\n  height: 0;\n  margin: .5rem 0;\n  overflow: hidden;\n  border-top: 1px solid #e9ecef;\n}",
+		".receiptItemList {\n    white-space:nowrap;\n\toverflow:auto;\n\toverflow-y: hidden;\n\t.receiptItem {\n\t\twidth: 100px;\n\t\theight: 100px;\n\t\tbackground-size: cover;\n\t\tbackground-position: center center;\n\t\tbackground-repeat: no-repeat;\n\t\tcursor:pointer;\n\t\tborder: 5px solid #ddd; /* Gray border */\n\t\tborder-radius: 4px;  /* Rounded border */\n\t\tmargin-left: .25rem;\n\t\tmargin-right: .25rem;\n\t}\n}\n\n.receiptItemINModal {\n\tmax-width: 100%;\n\twidth: 300px;\n    height: 300px;\n\tbackground-size: cover;\n\tbackground-position: center center;\n\tbackground-repeat: no-repeat;\n\tborder-radius: 4px;\n}\n\n"
+	],
+	"mappings": ";ACAA,AAAA,KAAK,CAAC;EACJ,aAAa,EAAE,GAAI;CACpB;;;AAED,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,CAAE;EACV,MAAM,EAAE,OAAQ;EAChB,QAAQ,EAAE,MAAO;EACjB,UAAU,EAAE,iBAAkB;CAC/B;;;ACTD,AAAA,gBAAgB,CAAC;EACb,WAAW,EAAC,MAAO;EACtB,QAAQ,EAAC,IAAK;EACd,UAAU,EAAE,MAAO;CAanB;;;AAhBD,AAIC,gBAJe,CAIf,YAAY,CAAC;EACZ,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,KAAM;EACd,eAAe,EAAE,KAAM;EACvB,mBAAmB,EAAE,aAAc;EACnC,iBAAiB,EAAE,SAAU;EAC7B,MAAM,EAAC,OAAQ;EACf,MAAM,EAAE,cAAe;EAAE,iBAAiB;EAC1C,aAAa,EAAE,GAAI;EAAG,oBAAoB;EAC1C,WAAW,EAAE,MAAO;EACpB,YAAY,EAAE,MAAO;CACrB;;;AAGF,AAAA,mBAAmB,CAAC;EACnB,SAAS,EAAE,IAAK;EAChB,KAAK,EAAE,KAAM;EACV,MAAM,EAAE,KAAM;EACjB,eAAe,EAAE,KAAM;EACvB,mBAAmB,EAAE,aAAc;EACnC,iBAAiB,EAAE,SAAU;EAC7B,aAAa,EAAE,GAAI;CACnB",
+	"names": []
+}

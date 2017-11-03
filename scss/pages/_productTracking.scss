@@ -1,0 +1,60 @@
+.dropdown-item {
+	width: auto!important;
+}
+
+.orderPlaced, .inProgress, .shipped, .delived, .completed{
+    position:absolute;
+	margin-top:-10px;
+	z-index:1;
+	height:40px;
+	width:40px;
+	border-radius:25px;
+	i {
+	 margin-top: 5px;
+	 color: #FFFFFF;
+	 }
+}
+.orderPlaced{
+	left:$orderPlaced;
+}
+.inProgress{
+	left:$inProgress;
+}
+.shipped{
+	left:$shipped;
+}
+.delived{
+	left:$delived;
+}
+.completed{
+	left:$completed;
+}
+
+.no-color{
+	background-color: inherit;
+}
+
+.progressbarLabel{
+	position:absolute;
+	top: 10px;
+}
+.orderPlacedLabel{
+	@extend .progressbarLabel;
+	left:$orderPlaced;
+}
+.inProgressLabel{
+	@extend .progressbarLabel;
+	left:$inProgress;
+}
+.shippedLabel{
+	@extend .progressbarLabel;
+	left:$shipped;
+}
+.delivedLabel{
+	@extend .progressbarLabel;
+	left:$delived;
+}
+.completedLabel{
+	@extend .progressbarLabel;
+	left:$completed - 4;
+}

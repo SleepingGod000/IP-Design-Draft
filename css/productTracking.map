@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "../scss/productTracking.css",
+	"sources": [
+		"../scss/productTracking.scss",
+		"../scss/base/_variables.scss",
+		"../scss/pages/_productTracking.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_variables.scss';\n\n@import 'pages/_productTracking.scss';",
+		"$orderPlaced:\t1%;\r\n$completed:\t\t94%;\r\n$inProgress:\t$completed/4;\r\n$shipped:\t\t$completed/2;\r\n$delived:\t\t$completed/4*3;",
+		".dropdown-item {\n\twidth: auto!important;\n}\n\n.orderPlaced, .inProgress, .shipped, .delived, .completed{\n    position:absolute;\n\tmargin-top:-10px;\n\tz-index:1;\n\theight:40px;\n\twidth:40px;\n\tborder-radius:25px;\n\ti {\n\t margin-top: 5px;\n\t color: #FFFFFF;\n\t }\n}\n.orderPlaced{\n\tleft:$orderPlaced;\n}\n.inProgress{\n\tleft:$inProgress;\n}\n.shipped{\n\tleft:$shipped;\n}\n.delived{\n\tleft:$delived;\n}\n.completed{\n\tleft:$completed;\n}\n\n.no-color{\n\tbackground-color: inherit;\n}\n\n.progressbarLabel{\n\tposition:absolute;\n\ttop: 10px;\n}\n.orderPlacedLabel{\n\t@extend .progressbarLabel;\n\tleft:$orderPlaced;\n}\n.inProgressLabel{\n\t@extend .progressbarLabel;\n\tleft:$inProgress;\n}\n.shippedLabel{\n\t@extend .progressbarLabel;\n\tleft:$shipped;\n}\n.delivedLabel{\n\t@extend .progressbarLabel;\n\tleft:$delived;\n}\n.completedLabel{\n\t@extend .progressbarLabel;\n\tleft:$completed - 4;\n}"
+	],
+	"mappings": ";AEAA,AAAA,cAAc,CAAC;EACd,KAAK,EAAE,IAAI,CAAA,UAAU;CACrB;;;AAED,AAAA,YAAY,EAAE,AAAA,WAAW,EAAE,AAAA,QAAQ,EAAE,AAAA,QAAQ,EAAE,AAAA,UAAU,CAAA;EACrD,QAAQ,EAAC,QAAS;EACrB,UAAU,EAAC,KAAM;EACjB,OAAO,EAAC,CAAE;EACV,MAAM,EAAC,IAAK;EACZ,KAAK,EAAC,IAAK;EACX,aAAa,EAAC,IAAK;CAKnB;;;AAXD,AAOC,YAPW,CAOX,CAAC,EAPY,AAOb,WAPwB,CAOxB,CAAC,EAPyB,AAO1B,QAPkC,CAOlC,CAAC,EAPmC,AAOpC,QAP4C,CAO5C,CAAC,EAP6C,AAO9C,UAPwD,CAOxD,CAAC,CAAC;EACD,UAAU,EAAE,GAAI;EAChB,KAAK,EAAE,OAAQ;CACd;;;AAEH,AAAA,YAAY,CAAA;EACX,IAAI,EDjBS,EAAE;CCkBf;;;AACD,AAAA,WAAW,CAAA;EACV,IAAI,EDlBQ,KAAU;CCmBtB;;;AACD,AAAA,QAAQ,CAAA;EACP,IAAI,EDpBM,GAAU;CCqBpB;;;AACD,AAAA,QAAQ,CAAA;EACP,IAAI,EDtBM,KAAU;CCuBpB;;;AACD,AAAA,UAAU,CAAA;EACT,IAAI,ED5BQ,GAAG;CC6Bf;;;AAED,AAAA,SAAS,CAAA;EACR,gBAAgB,EAAE,OAAQ;CAC1B;;;AAED,AAAA,iBAAiB,EAIjB,AAJA,iBAIiB,EAIjB,AARA,gBAQgB,EAIhB,AAZA,aAYa,EAIb,AAhBA,aAgBa,EAIb,AApBA,eAoBe,CApBE;EAChB,QAAQ,EAAC,QAAS;EAClB,GAAG,EAAE,IAAK;CACV;;;AACD,AAAA,iBAAiB,CAAA;EAEhB,IAAI,ED1CS,EAAE;CC2Cf;;;AACD,AAAA,gBAAgB,CAAA;EAEf,IAAI,ED5CQ,KAAU;CC6CtB;;;AACD,AAAA,aAAa,CAAA;EAEZ,IAAI,ED/CM,GAAU;CCgDpB;;;AACD,AAAA,aAAa,CAAA;EAEZ,IAAI,EDlDM,KAAU;CCmDpB;;;AACD,AAAA,eAAe,CAAA;EAEd,IAAI,EAAC,GAAU;CACf",
+	"names": []
+}
