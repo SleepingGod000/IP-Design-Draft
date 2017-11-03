@@ -1,0 +1,83 @@
+/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.dropdown-item {
+  width: auto !important;
+}
+
+/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.orderPlaced, .inProgress, .shipped, .delived, .completed {
+  position: absolute;
+  margin-top: -10px;
+  z-index: 1;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+}
+
+/* line 12, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.orderPlaced i, .inProgress i, .shipped i, .delived i, .completed i {
+  margin-top: 5px;
+  color: #FFFFFF;
+}
+
+/* line 17, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.orderPlaced {
+  left: 1%;
+}
+
+/* line 20, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.inProgress {
+  left: 23.5%;
+}
+
+/* line 23, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.shipped {
+  left: 47%;
+}
+
+/* line 26, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.delived {
+  left: 70.5%;
+}
+
+/* line 29, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.completed {
+  left: 94%;
+}
+
+/* line 33, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.no-color {
+  background-color: inherit;
+}
+
+/* line 37, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.progressbarLabel, .orderPlacedLabel, .inProgressLabel, .shippedLabel, .delivedLabel, .completedLabel {
+  position: absolute;
+  top: 10px;
+}
+
+/* line 41, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.orderPlacedLabel {
+  left: 1%;
+}
+
+/* line 45, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.inProgressLabel {
+  left: 23.5%;
+}
+
+/* line 49, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.shippedLabel {
+  left: 47%;
+}
+
+/* line 53, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.delivedLabel {
+  left: 70.5%;
+}
+
+/* line 57, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_productTracking.scss */
+.completedLabel {
+  left: 90%;
+}
+
+/*# sourceMappingURL=../css/productTracking.map */
