@@ -1,28 +1,59 @@
-.receiptItemList {
-    white-space:nowrap;
-	overflow:auto;
-	overflow-y: hidden;
-	.receiptItem {
-		width: 100px;
-		height: 100px;
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		cursor:pointer;
-		border: 5px solid #ddd; /* Gray border */
-		border-radius: 4px;  /* Rounded border */
-		margin-left: .25rem;
-		margin-right: .25rem;
+.dropdown-item {
+	width: auto!important;
+}
+
+.orderPlaced, .inProgress, .shipped, .delived, .completed{
+    position:absolute;
+	margin-top:-10px;
+	z-index:1;
+	height:40px;
+	width:40px;
+	border-radius:25px;
+	i {
+	 margin-top: 5px;
+	 color: #FFFFFF;
+	 }
+}
+.orderPlaced{
+	left:2%;
+}
+.inProgress{
+	left:22%;
+}
+.shipped{
+	left:44%;
+}
+.delived{
+	left:66%;
+}
+.completed{
+	left:90%;
+}
+
+.no-color{
+	background-color: inherit;
+}
+
+.progressbarLabel{
+	margin-bottom: 10px;
+	.orderPlacedLabel{
+		position:absolute;
+		left:0%;
+	}
+	.inProgressLabel{
+		position:absolute;
+		left:20%;
+	}
+	.shippedLabel{
+		position:absolute;
+		left:44%;
+	}
+	.delivedLabel{
+		position:absolute;
+		left:66%;
+	}
+	.completedLabel{
+		position:absolute;
+		left:85%;
 	}
 }
-
-.receiptItemINModal {
-	max-width: 100%;
-	width: 300px;
-    height: 300px;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	border-radius: 4px;
-}
-
