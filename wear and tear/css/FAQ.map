@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "../scss/FAQ.css",
+	"sources": [
+		"../scss/FAQ.scss",
+		"../scss/modules/_textDecoration.scss",
+		"../scss/modules/_customCard.scss"
+	],
+	"sourcesContent": [
+		"@import 'modules/_textDecoration.scss';\r\n@import 'modules/customCard.scss';",
+		".nounderline {\r\n\ttext-decoration:none!important;\r\n}",
+		".card {\r\n  margin-bottom: 1em;\r\n}\r\n\r\n.card-divider {\r\n  height: 0;\r\n  margin: .5rem 0;\r\n  overflow: hidden;\r\n  border-top: 1px solid #e9ecef;\r\n}"
+	],
+	"mappings": ";ACAA,AAAA,YAAY,CAAC;EACZ,eAAe,EAAC,IAAI,CAAA,UAAU;CAC9B;;;ACFD,AAAA,KAAK,CAAC;EACJ,aAAa,EAAE,GAAI;CACpB;;;AAED,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,CAAE;EACV,MAAM,EAAE,OAAQ;EAChB,QAAQ,EAAE,MAAO;EACjB,UAAU,EAAE,iBAAkB;CAC/B",
+	"names": []
+}
