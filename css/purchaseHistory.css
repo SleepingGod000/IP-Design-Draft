@@ -1,9 +1,9 @@
-/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+/* line 1, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
 .card {
   margin-bottom: 1em;
 }
 
-/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+/* line 5, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
 .card-divider {
   height: 0;
   margin: .5rem 0;
@@ -11,14 +11,31 @@
   border-top: 1px solid #e9ecef;
 }
 
-/* line 1, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 12, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: -25px;
+  right: -25px;
+  font-size: 5rem;
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+/* line 23, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.o-hidden {
+  overflow: hidden;
+}
+
+/* line 1, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
 .receiptItemList {
   white-space: nowrap;
   overflow: auto;
   overflow-y: hidden;
 }
 
-/* line 5, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 5, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
 .receiptItemList .receiptItem {
   width: 100px;
   height: 100px;
@@ -34,7 +51,7 @@
   margin-right: .25rem;
 }
 
-/* line 19, C:/Users/USER/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
+/* line 19, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
 .receiptItemINModal {
   max-width: 100%;
   width: 300px;

@@ -1,133 +1,172 @@
+/* line 1, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
 .card {
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
+/* line 5, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
 .card-divider {
-    height: 0;
-    margin: .5rem 0;
-    overflow: hidden;
-    border-top: 1px solid #e9ecef;
+  height: 0;
+  margin: .5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
 }
 
-/*
- * Base structure
- */
-
-
-/*
- * Typography
- */
-
-h1 {
-  margin-bottom: 20px;
-  padding-bottom: 9px;
-  border-bottom: 1px solid #eee;
+/* line 12, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: -25px;
+  right: -25px;
+  font-size: 5rem;
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
 }
 
-/*
- * Sidebar
- */
-.sidebarContainer{
-	position: fixed;
-    height: 100%;
+/* line 23, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.o-hidden {
+  overflow: hidden;
 }
+
+/* Sidebar */
+/* line 3, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.sidebarContainer {
+  position: fixed !important;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+/* line 10, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar {
-	position: sticky;
-	top: 0;
-	z-index: 1;
-	padding: 20px 0 20px 0;
-	overflow-x: hidden;
-	overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-}
-
-/* Sidebar navigation */
-#sidebar {
+  padding: 120px 0 20px 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
   padding-left: 0;
   padding-right: 0;
 }
 
+/* line 17, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav {
   margin-bottom: 20px;
 }
 
+/* line 20, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav-item {
   width: 100%;
 }
 
+/* line 22, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav-item + .nav-item {
   margin-left: 0;
 }
 
+/* line 26, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 #sidebar .nav-link {
   border-radius: 0;
   color: #ffffff;
 }
 
+/* Notification Detail Panel */
+/* line 34, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notificationDetail-panel-content {
-	padding:20px;
+  padding-right: 1.25rem;
 }
 
-.notification-panel-content > ul > li > .media-body > p{
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
+/*Notification Panel */
+/* line 40, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.notification-panel-content {
+  min-height: 400px;
+  max-height: 400px;
+  overflow-x: hidden;
 }
 
-.notification-panel-content,
+/* line 41, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.notification-panel-content > ul > li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+/* line 42, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.notification-panel-content > ul > li > .media-body > p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* line 51, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.notification-panel-content > ul > li:hover {
+  background: #cacaca;
+}
+
+/* line 60, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .notificationDetail-panel-content {
-	min-height: 400px;
-	max-height: 400px;
-    overflow-x: hidden;
+  min-height: 400px;
+  max-height: 400px;
+  overflow-x: hidden;
 }
 
-.notification-panel-content::-webkit-scrollbar-track,
-.notificationDetail-panel-content::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #F5F5F5;
+/* line 66, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.notification-panel-content::-webkit-scrollbar-track, .notificationDetail-panel-content::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
 }
 
-.notification-panel-content::-webkit-scrollbar,
-.notificationDetail-panel-content::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #F5F5F5;
+/* line 72, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.notification-panel-content::-webkit-scrollbar, .notificationDetail-panel-content::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
 }
 
-.notification-panel-content::-webkit-scrollbar-thumb,
-.notificationDetail-panel-content::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #777777;
+/* line 77, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.notification-panel-content::-webkit-scrollbar-thumb, .notificationDetail-panel-content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #777777;
 }
 
-.notification-panel-Pic{
-    width: 80px;
-    height: 80px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-	border-radius: 50%;
-	margin-left: .25rem;
-	margin-right: .25rem;
-}
-.notificationDetail-panel-Pic{
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-	border-radius: 50%;
-	margin-left: .25rem;
-	margin-right: .25rem;
+/* line 83, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.notification-panel-Pic {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-left: .25rem;
+  margin-right: .25rem;
 }
 
+/* line 94, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.notificationDetail-panel-Pic {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-left: .25rem;
+  margin-right: .25rem;
+}
 
+/* line 105, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+.notification-selected {
+  background: #cacaca;
+}
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  /* line 110, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+  .sidenav {
+    padding-top: 15px;
+  }
+  /* line 112, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
+  .sidenav a {
+    font-size: 18px;
+  }
 }
+
+/*# sourceMappingURL=../css/dashboard.map */
