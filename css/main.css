@@ -663,6 +663,34 @@ body {
   overflow: hidden;
 }
 
+/* line 27, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.selectedCard {
+  position: relative;
+}
+
+/* line 29, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.selectedCard::before, .selectedCard::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+/* line 37, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.selectedCard::before {
+  border-right-color: #ccc;
+  border-top-color: #ccc;
+}
+
+/* line 41, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.selectedCard::after {
+  border-width: 1.35em;
+  border-right-color: #0c0;
+  border-top-color: #0c0;
+}
+
 /* Sidebar */
 /* line 3, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_dashboard.scss */
 .sidebarContainer {

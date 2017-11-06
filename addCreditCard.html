@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>IP Template-Dashboard</title>
 
-    <title>Credit Card</title>
-
-    <link href="css/main.css" rel="stylesheet">
-
+    <!-- Custom styles for this file -->
+	<link href="css/base.css" rel="stylesheet">
+	<link href="css/navbar.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="css/addCreditCard.css" rel="stylesheet">
+	
+	<!-- vendor CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+ 
+	<!-- vendor javascript -->
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	
+  </head>
 
-</head>
-<body>
-
+  <body>
     <!-- Navigation -->
 	<div class="wrapper">
 		<nav class="navbar-dark navbar-expand-lg bg-dark">     
@@ -233,49 +240,152 @@
 	</div>
 	<!-- Navigation -->
 
-	<div class="container pt-1">
-		<form>
-			<div class="form-group row">
-				<label for="cardType" class="col-sm-2 col-form-label">Card Type</label>
-				<div class="col-sm-10">
-					<select name="cardType" type="text" class="form-control" id="cardType">
-						<option selected>Choose...</option>
-						<option value="MasterCard">MasterCard</option>
-						<option value="Visa">Visa</option>
-					</select>
-				</div>
-			</div>
-			<div class="form-group row">
-				<label for="cardHolderName" class="col-sm-2 col-form-label">Cardholder's Name</label>
-				<div class="col-sm-10">
-					<input type="text" class="form-control" id="cardHolderName" placeholder="Cardholder's Name">
-				</div>
-			</div>
-			<div class="form-group row">
-				<label for="cardNumber" class="col-sm-2 col-form-label">Card Number</label>
-				<div class="col-sm-10">
-					<input type="text" class="form-control" id="cardNumber" placeholder="Card Number">
-					<p class="text-warning">* No hyphens required</p>
-				</div>
-			</div>
-			<div class="form-group row">
-				<label for="expiresOn" class="col-sm-2 col-form-label">Expires On</label>
-				<div class="col-sm-5">
-					<select name="expiresDate" type="text" class="form-control" id="expiresDate">
-						<?php 
-						for($i=1; $i<=4; $i++)
-						{
-							echo "<option value=".$i.">".$i."</option>";
-						}
-						?> 
-					</select>
-				</div>
-				<div class="col-sm-5">
-					<input type="password" class="form-control" id="inputPassword" placeholder="Password">
-				</div>
-			</div>
-		</form>
-	</div>
+    <div class="container-fluid">
+		<div class="row">
+			<nav class="col-sm-3 col-md-2 d-none d-sm-block bg-dark px-0 sidebarContainer">
+				<div id="sidebar">
+				  <ul class="nav nav-pills flex-column">
+					<li class="nav-item">
+					  <a class="nav-link active" href="javascript:void(0)">Overview <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="javascript:void(0)">Product List</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="javascript:void(0)">Statistic</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="javascript:void(0)">Setting</a>
+					</li>				
+				  </ul>
 
+				  <ul class="nav nav-pills flex-column">
+					<li class="nav-item">
+					  <a class="nav-link" href="javascript:void(0)">Notification</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="javascript:void(0)">History</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="javascript:void(0)">Wishlist</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="javascript:void(0)">Blacklist</a>
+					</li>
+				  </ul>
+				</div>
+			</nav>
+
+			<main class="col-sm-9 ml-sm-auto col-md-10 pt-3" role="main">
+			
+				<div class="card my-5 text-center">
+					<div class="card-body">
+						<div class="list-inline creditCardList">
+							<a>
+								<div class="list-inline-item creditCard selectedCard">
+									<i class="fa fa-4x fa-credit-card-alt" aria-hidden="true"></i>
+									<p>Visa Ending In <span>0101</span></p>
+								</div>
+							</a>
+							<a>
+								<div class="list-inline-item creditCard">
+									<i class="fa fa-4x fa-credit-card-alt" aria-hidden="true"></i>
+									<p>Visa Ending In <span>0101</span></p>
+								</div>
+							</a>
+							<a data-toggle="modal" data-target=".addCreditCardModal">
+								<div class="list-inline-item addCreditCard">
+									<i class="fa fa-4x fa-plus" aria-hidden="true"></i>
+								</div>
+							</a>
+						</div>
+					</div>	
+				</div>
+				
+				<div class="modal fade addCreditCardModal" tabindex="-1" role="dialog" aria-labelledby="addCreditCardModal" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Credit Card</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<form>
+									<div class="form-group row">
+										<label for="cardType" class="col-sm-2 col-form-label">Card Type</label>
+										<div class="col-sm-10">
+											<select name="cardType" type="text" class="form-control" id="cardType">
+												<option selected>Choose...</option>
+												<option value="MasterCard">MasterCard</option>
+												<option value="Visa">Visa</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="cardHolderName" class="col-sm-2 col-form-label">Cardholder's Name</label>
+										<div class="col-sm-10">
+											<input type="text" class="form-control" id="cardHolderName" placeholder="Cardholder's Name">
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="cardNumber" class="col-sm-2 col-form-label">Card Number</label>
+										<div class="col-sm-10">
+											<input type="text" class="form-control" id="cardNumber" placeholder="Card Number">
+											<p class="text-warning">* No hyphens required</p>
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="expiresOn" class="col-sm-2 col-form-label">Expires On</label>
+										<div class="col-sm-2">
+											<select name="expiremonth" type="text" class="form-control" id="expiresDate">
+												<option value=1>January</option>
+												<option value=2>February</option>
+												<option value=3>March</option>
+												<option value=4>April</option>
+												<option value=5>May</option>
+												<option value=6>June</option>
+												<option value=7>July</option>
+												<option value=8>August</option>
+												<option value=9>September</option>
+												<option value=10>October</option>
+												<option value=11>November</option>
+												<option value=12>December</option>
+											</select>
+										</div>
+										<div class="col-sm-2">
+											<select name="expireyear" type="text" class="form-control" id="expiresDate">
+												<option value=2017>2017</option>
+												<option value=2018>2018</option>
+												<option value=2019>2019</option>
+												<option value=2020>2020</option>
+											</select>
+										</div>
+										<div class="col-sm-5">
+											<input type="password" class="form-control" id="securityCode" placeholder="Password">
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary">Submit</button>
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</main>
+		</div>
+    </div>
+	
+	<!-- Footer -->
+	<footer class="py-5 bg-dark">
+		<div class="container">
+			<p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+		</div>
+	</footer>
+	<!--Footer -->
 </body>
 </html>

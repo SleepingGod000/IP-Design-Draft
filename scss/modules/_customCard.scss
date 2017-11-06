@@ -23,3 +23,24 @@
 .o-hidden{
 	overflow: hidden;
 }
+
+.selectedCard {
+	position:relative;
+	&::before, &::after {
+		content:"";
+		position: absolute;
+		top: 0;
+		right: 0;
+		border-color: transparent;
+		border-style: solid;
+	}
+	&::before {
+		border-right-color: #ccc;
+		border-top-color: #ccc;
+	}
+	&::after {
+		border-width: 1.35em;
+		border-right-color: #0c0;
+		border-top-color: #0c0;
+	}
+}
