@@ -1,106 +1,15 @@
-html {
-  height		: 100%;
-  box-sizing	: border-box;
-}
-
-body {
-	position		: relative;
-	margin			: 0;
-	padding-bottom	: 6rem;
-	min-height		: 100%;
-}
-
-
- 
- .block-with-text
+.maps
 {
-	display            : block;
-	display            : -webkit-box;
-	-webkit-box-orient : vertical;
-	position           : relative;
-	line-height        : 1.2;
-	overflow           : hidden;
-	text-overflow      : ellipsis;
-	padding            : 0 !important;
+  position: relative;
+  padding-bottom: 80%;
+  height: 0;
+  overflow: hidden;
 }
-.block-with-text:after
+.maps iframe
 {
-	content    : '...';
-	text-align : right;
-	bottom     : 0;
-	right      : 0;
-	width      : 50%;
-	display    : block;
-	position   : absolute;
-	height     : calc(1em * 1.2);
-	background : linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 75%);
-}
-
-@supports (-webkit-line-clamp: 1)
-{
-	.block-with-text:after
-	{
-		display : none !important;
-	}
-}
-.line-clamp-1
-{
-	-webkit-line-clamp : 1;
-	height             : calc(1em * 1.2 * 1);
-}
-.line-clamp-2
-{
-	-webkit-line-clamp : 2;
-	height             : calc(1em * 1.2 * 2);
-}
-.line-clamp-3
-{
-	-webkit-line-clamp : 3;
-	height             : calc(1em * 1.2 * 3);
-}
-.line-clamp-4
-{
-	-webkit-line-clamp : 4;
-	height             : calc(1em * 1.2 * 4);
-}
-.line-clamp-5
-{
-	-webkit-line-clamp : 5;
-	height             : calc(1em * 1.2 * 5);
-}
-/* End required CSS. */
-
-
-
-@media (min-width: 768px) {
-	.searchbar {
-		width		: 50%!important;
-	}
-}
-.searchbar {
-		width		: 100%;
-		display		: flex;
-		position	: relative;
-		margin-right: auto!important;
-		margin-left	: auto!important;
-}
-
-.fa-stack[data-count]:after{
-  position		: absolute;
-  right			: 10%;
-  top			: 10%;
-  content		: attr(data-count);
-  font-size		: 30%;
-  padding		: .6em;
-  border-radius	: 999px;
-  line-height	: .75em;
-  color			: white;
-  background	: rgba(255,0,0,.85);
-  text-align	: center;
-  min-width		: 2em;
-  font-weight	: bold;
-}
-
-.wrapper {
-	position	: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 50%;
 }
