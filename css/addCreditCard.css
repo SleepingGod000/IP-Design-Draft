@@ -56,38 +56,33 @@
   border-top-color: #0c0;
 }
 
-/* line 1, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
-.receiptItemList {
+/* line 1, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_addCreditCard.scss */
+.creditCardList {
   white-space: nowrap;
   overflow: auto;
   overflow-y: hidden;
 }
 
-/* line 5, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
-.receiptItemList .receiptItem {
-  width: 100px;
-  height: 100px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+/* line 5, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_addCreditCard.scss */
+.creditCardList .creditCard, .creditCardList .addCreditCard {
+  width: 200px;
+  height: 120px;
   cursor: pointer;
-  border: 5px solid #ddd;
-  /* Gray border */
+  border: 2px solid #ddd;
   border-radius: 4px;
-  /* Rounded border */
   margin-left: .25rem;
   margin-right: .25rem;
+  float: left;
+  text-align: center;
+  vertical-align: bottom;
+  color: #343a40;
 }
 
-/* line 19, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/pages/_purchaseHistory.scss */
-.receiptItemINModal {
-  max-width: 100%;
-  width: 300px;
-  height: 300px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  border-radius: 4px;
+/* line 18, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_addCreditCard.scss */
+.creditCardList .addCreditCard {
+  line-height: 140px;
+  background-color: #aaaaaa;
+  color: white;
 }
 
-/*# sourceMappingURL=../css/purchaseHistory.map */
+/*# sourceMappingURL=../css/addCreditCard.map */

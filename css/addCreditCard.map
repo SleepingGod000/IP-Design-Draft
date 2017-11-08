@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "../scss/addCreditCard.css",
+	"sources": [
+		"../scss/addCreditCard.scss",
+		"../scss/modules/_customCard.scss",
+		"../scss/modules/_addCreditCard.scss"
+	],
+	"sourcesContent": [
+		"@import 'modules/customCard.scss';\r\n@import 'modules/_addCreditCard.scss';",
+		".card {\r\n  margin-bottom: 1em;\r\n}\r\n\r\n.card-divider {\r\n  height: 0;\r\n  margin: .5rem 0;\r\n  overflow: hidden;\r\n  border-top: 1px solid #e9ecef;\r\n}\r\n\r\n.card-body-icon {\r\n    position: absolute;\r\n    z-index: 0;\r\n    top: -25px;\r\n    right: -25px;\r\n    font-size: 5rem;\r\n    -webkit-transform: rotate(15deg);\r\n    -ms-transform: rotate(15deg);\r\n    transform: rotate(15deg);\r\n}\r\n\r\n.o-hidden{\r\n\toverflow: hidden;\r\n}\r\n\r\n.selectedCard {\r\n\tposition:relative;\r\n\t&::before, &::after {\r\n\t\tcontent:\"\";\r\n\t\tposition: absolute;\r\n\t\ttop: 0;\r\n\t\tright: 0;\r\n\t\tborder-color: transparent;\r\n\t\tborder-style: solid;\r\n\t}\r\n\t&::before {\r\n\t\tborder-right-color: #ccc;\r\n\t\tborder-top-color: #ccc;\r\n\t}\r\n\t&::after {\r\n\t\tborder-width: 1.35em;\r\n\t\tborder-right-color: #0c0;\r\n\t\tborder-top-color: #0c0;\r\n\t}\r\n}",
+		".creditCardList {\r\n    white-space:nowrap;\r\n\toverflow:auto;\r\n\toverflow-y: hidden;\r\n\t.creditCard {\r\n\t\twidth:200px; \r\n\t\theight:120px;\r\n\t\tcursor:pointer;\r\n\t\tborder: 2px solid #ddd;\r\n\t\tborder-radius: 4px;\r\n\t\tmargin-left: .25rem;\r\n\t\tmargin-right: .25rem;\r\n\t\tfloat:left;\r\n\t\ttext-align: center;\r\n\t\tvertical-align: bottom;\r\n\t\tcolor: #343a40;\r\n\t}\r\n\t.addCreditCard {\r\n\t\t@extend .creditCard;\r\n\t\tline-height: 140px;\r\n\t\tbackground-color: #aaaaaa;\r\n\t\tcolor:white;\r\n\t}\r\n}"
+	],
+	"mappings": ";ACAA,AAAA,KAAK,CAAC;EACJ,aAAa,EAAE,GAAI;CACpB;;;AAED,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,CAAE;EACV,MAAM,EAAE,OAAQ;EAChB,QAAQ,EAAE,MAAO;EACjB,UAAU,EAAE,iBAAkB;CAC/B;;;AAED,AAAA,eAAe,CAAC;EACZ,QAAQ,EAAE,QAAS;EACnB,OAAO,EAAE,CAAE;EACX,GAAG,EAAE,KAAM;EACX,KAAK,EAAE,KAAM;EACb,SAAS,EAAE,IAAK;EAChB,iBAAiB,EAAE,aAAM;EACzB,aAAa,EAAE,aAAM;EACrB,SAAS,EAAE,aAAM;CACpB;;;AAED,AAAA,SAAS,CAAA;EACR,QAAQ,EAAE,MAAO;CACjB;;;AAED,AAAA,aAAa,CAAC;EACb,QAAQ,EAAC,QAAS;CAkBlB;;;AAnBD,AAAA,aAAa,AAEX,QAAQ,EAFV,AAAA,aAAa,AAEA,OAAO,CAAC;EACnB,OAAO,EAAC,EAAG;EACX,QAAQ,EAAE,QAAS;EACnB,GAAG,EAAE,CAAE;EACP,KAAK,EAAE,CAAE;EACT,YAAY,EAAE,WAAY;EAC1B,YAAY,EAAE,KAAM;CACpB;;;AATF,AAAA,aAAa,AAUX,QAAQ,CAAC;EACT,kBAAkB,EAAE,IAAK;EACzB,gBAAgB,EAAE,IAAK;CACvB;;;AAbF,AAAA,aAAa,AAcX,OAAO,CAAC;EACR,YAAY,EAAE,MAAO;EACrB,kBAAkB,EAAE,IAAK;EACzB,gBAAgB,EAAE,IAAK;CACvB;;;AC5CF,AAAA,eAAe,CAAC;EACZ,WAAW,EAAC,MAAO;EACtB,QAAQ,EAAC,IAAK;EACd,UAAU,EAAE,MAAO;CAoBnB;;;AAvBD,AAIC,eAJc,CAId,WAAW,EAJZ,AAIC,eAJc,CAiBd,cAAc,CAbF;EACX,KAAK,EAAC,KAAM;EACZ,MAAM,EAAC,KAAM;EACb,MAAM,EAAC,OAAQ;EACf,MAAM,EAAE,cAAe;EACvB,aAAa,EAAE,GAAI;EACnB,WAAW,EAAE,MAAO;EACpB,YAAY,EAAE,MAAO;EACrB,KAAK,EAAC,IAAK;EACX,UAAU,EAAE,MAAO;EACnB,cAAc,EAAE,MAAO;EACvB,KAAK,EAAE,OAAQ;CACf;;;AAhBF,AAiBC,eAjBc,CAiBd,cAAc,CAAC;EAEd,WAAW,EAAE,KAAM;EACnB,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAC,KAAM;CACZ",
+	"names": []
+}
