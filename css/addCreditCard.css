@@ -1,0 +1,88 @@
+/* line 1, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.card {
+  margin-bottom: 1em;
+}
+
+/* line 5, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.card-divider {
+  height: 0;
+  margin: .5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+}
+
+/* line 12, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: -25px;
+  right: -25px;
+  font-size: 5rem;
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+/* line 23, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.o-hidden {
+  overflow: hidden;
+}
+
+/* line 27, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.selectedCard {
+  position: relative;
+}
+
+/* line 29, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.selectedCard::before, .selectedCard::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+/* line 37, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.selectedCard::before {
+  border-right-color: #ccc;
+  border-top-color: #ccc;
+}
+
+/* line 41, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_customCard.scss */
+.selectedCard::after {
+  border-width: 1.35em;
+  border-right-color: #0c0;
+  border-top-color: #0c0;
+}
+
+/* line 1, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_addCreditCard.scss */
+.creditCardList {
+  white-space: nowrap;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+/* line 5, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_addCreditCard.scss */
+.creditCardList .creditCard, .creditCardList .addCreditCard {
+  width: 200px;
+  height: 120px;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin-left: .25rem;
+  margin-right: .25rem;
+  float: left;
+  text-align: center;
+  vertical-align: bottom;
+  color: #343a40;
+}
+
+/* line 18, C:/Users/User/Documents/GitHub/IP-Design-Draft/scss/modules/_addCreditCard.scss */
+.creditCardList .addCreditCard {
+  line-height: 140px;
+  background-color: #aaaaaa;
+  color: white;
+}
+
+/*# sourceMappingURL=../css/addCreditCard.map */

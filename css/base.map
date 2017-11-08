@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "../scss/base.css",
+	"sources": [
+		"../scss/base.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_footer.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_footer.scss';",
+		"$orderPlaced:\t1%;\r\n$completed:\t\t94%;\r\n$inProgress:\t$completed/4;\r\n$shipped:\t\t$completed/2;\r\n$delived:\t\t$completed/4*3;",
+		"",
+		"html {\r\n  height: 100%;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  position: relative;\r\n  margin: 0;\r\n  padding-top: 120px;\r\n  padding-bottom: 6rem;\r\n  min-height: 100%;\r\n}",
+		"footer {\r\n\tposition: absolute;\r\n\tright: 0;\r\n\tbottom: 0;\r\n\tleft: 0;\r\n\twidth: 100%;\r\n\theight: 1rem;\r\n}"
+	],
+	"mappings": ";AGAA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,IAAK;EACb,UAAU,EAAE,UAAW;CACxB;;;AAED,AAAA,IAAI,CAAC;EACH,QAAQ,EAAE,QAAS;EACnB,MAAM,EAAE,CAAE;EACV,WAAW,EAAE,KAAM;EACnB,cAAc,EAAE,IAAK;EACrB,UAAU,EAAE,IAAK;CAClB;;;ACXD,AAAA,MAAM,CAAC;EACN,QAAQ,EAAE,QAAS;EACnB,KAAK,EAAE,CAAE;EACT,MAAM,EAAE,CAAE;EACV,IAAI,EAAE,CAAE;EACR,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;CACb",
+	"names": []
+}

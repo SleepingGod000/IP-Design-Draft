@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../scss/dashboardOverview.css",
+	"sources": [
+		"../scss/dashboardOverview.scss",
+		"../scss/pages/_dashboardOverview.scss"
+	],
+	"sourcesContent": [
+		"@import 'pages/_dashboardOverview.scss';",
+		".salesCard,.recentCard{\r\n\theight: 400px\r\n}\r\n\r\n.sales-chart{\r\n\tposition:\trelative;\r\n\theight:\t\t300px;\r\n}\r\n\r\n.recent-buyer-panel {\r\n  > ul > li {\r\n    padding-top: 5px;\r\n    padding-bottom: 5px;\r\n    cursor: pointer;\r\n    &:hover {\r\n      background: #cacaca;\r\n    }\r\n  }\r\n  overflow-x: hidden;\r\n}\r\n\r\n.recent-buyer-panel::-webkit-scrollbar-track{\r\n  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);\r\n  border-radius: 10px;\r\n  background-color: #F5F5F5;\r\n}\r\n\r\n.recent-buyer-panel::-webkit-scrollbar {\r\n  width: 12px;\r\n  background-color: #F5F5F5;\r\n}\r\n\r\n.recent-buyer-panel::-webkit-scrollbar-thumb {\r\n  border-radius: 10px;\r\n  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);\r\n  background-color: #777777;\r\n}\r\n\r\n.recent-buyer-Pic {\r\n  width: 50px;\r\n  height: 50px;\r\n  background-size: cover;\r\n  background-position: center center;\r\n  background-repeat: no-repeat;\r\n  border-radius: 50%;\r\n  margin-left: .25rem;\r\n  margin-right: .25rem;\r\n}"
+	],
+	"mappings": ";ACAA,AAAA,UAAU,EAAC,AAAA,WAAW,CAAA;EACrB,MAAM,EAAE,KACR;CAAC;;;AAEF,AAAA,YAAY,CAAA;EACX,QAAQ,EAAE,QAAS;EACnB,MAAM,EAAG,KAAM;CACf;;;AAED,AAAA,mBAAmB,CAAC;EASlB,UAAU,EAAE,MAAO;CACpB;;;AAVD,AACS,mBADU,GACf,EAAE,GAAG,EAAE,CAAC;EACR,WAAW,EAAE,GAAI;EACjB,cAAc,EAAE,GAAI;EACpB,MAAM,EAAE,OAAQ;CAIjB;;;AARH,AACS,mBADU,GACf,EAAE,GAAG,EAAE,AAIN,MAAM,CAAC;EACN,UAAU,EAAE,OAAQ;CACrB;;;AAKL,AAAmB,mBAAA,AAAA,yBAAyB,CAAA;EAC1C,kBAAkB,EAAE,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,kBAAI;EACtC,aAAa,EAAE,IAAK;EACpB,gBAAgB,EAAE,OAAQ;CAC3B;;;AAED,AAAmB,mBAAA,AAAA,mBAAmB,CAAC;EACrC,KAAK,EAAE,IAAK;EACZ,gBAAgB,EAAE,OAAQ;CAC3B;;;AAED,AAAmB,mBAAA,AAAA,yBAAyB,CAAC;EAC3C,aAAa,EAAE,IAAK;EACpB,kBAAkB,EAAE,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,kBAAI;EACtC,gBAAgB,EAAE,OAAQ;CAC3B;;;AAED,AAAA,iBAAiB,CAAC;EAChB,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;EACb,eAAe,EAAE,KAAM;EACvB,mBAAmB,EAAE,aAAc;EACnC,iBAAiB,EAAE,SAAU;EAC7B,aAAa,EAAE,GAAI;EACnB,WAAW,EAAE,MAAO;EACpB,YAAY,EAAE,MAAO;CACtB",
+	"names": []
+}

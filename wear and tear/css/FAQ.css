@@ -1,0 +1,19 @@
+/* line 1, E:/Implementation Project/Website Design Draft/wear and tear/scss/modules/_textDecoration.scss */
+.nounderline {
+  text-decoration: none !important;
+}
+
+/* line 1, E:/Implementation Project/Website Design Draft/wear and tear/scss/modules/_customCard.scss */
+.card {
+  margin-bottom: 1em;
+}
+
+/* line 5, E:/Implementation Project/Website Design Draft/wear and tear/scss/modules/_customCard.scss */
+.card-divider {
+  height: 0;
+  margin: .5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+}
+
+/*# sourceMappingURL=../css/FAQ.map */
